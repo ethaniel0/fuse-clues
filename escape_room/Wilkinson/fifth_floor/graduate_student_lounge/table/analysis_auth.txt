@@ -1,0 +1,13 @@
+ECE 566 — RAID Analysis Notes
+
+Focus: authentication
+
+Most entries use normal authentication.
+
+The one you’re looking for doesn’t.
+
+Instead of searching for it directly,
+filter out what’s common.
+
+Try excluding:
+  auth:ok

@@ -1,0 +1,13 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  readdir:
+    - condition: always
+      actions:
+        - value: null

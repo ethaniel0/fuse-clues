@@ -1,0 +1,6 @@
+checkpoint: clue_4
+submit the location revealed by the unit status for server unit #4
+hint: fill in the blank Second_Floor/___________
+
+checkpoint_4_answer.txt will show up once the To Do list is complete!
+

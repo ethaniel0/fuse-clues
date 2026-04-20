@@ -1,0 +1,27 @@
+hooks:
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../white_board.txt"
+            expected_substring: "1011010"
+      actions:
+        - value: ""
+
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../white_board.txt"
+            expected_substring: "1011010"
+      actions:
+        - value: null
+
+  access:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../white_board.txt"
+            expected_substring: "1011010"
+      actions:
+        - value: false

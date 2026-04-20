@@ -1,0 +1,5 @@
+hooks:
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false

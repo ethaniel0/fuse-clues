@@ -1,0 +1,24 @@
+hooks:
+  readdir:
+    - condition: &reader_not_unlocked
+        not:
+          file_content_contains:
+            path: "reader.txt"
+            expected_substring: "status: unlocked"
+      actions:
+        - value: ""
+        
+  readdir-search:
+    - condition: *reader_not_unlocked
+      actions:
+        - value: ""
+
+  getattr:
+    - condition: *reader_not_unlocked
+      actions:
+        - value: null
+
+  access:
+    - condition: *reader_not_unlocked
+      actions:
+        - value: false

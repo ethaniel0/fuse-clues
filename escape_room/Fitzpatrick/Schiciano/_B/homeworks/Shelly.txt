@@ -1,0 +1,15 @@
+1. 8
+2. Harvard
+3. control unit
+4. 0
+5. 1
+6. out-of-order
+7. 8
+8. cache
+9. 1
+10. 99
+11. cache line
+12. 64
+13. little-endian
+14. 8
+15. memory controller

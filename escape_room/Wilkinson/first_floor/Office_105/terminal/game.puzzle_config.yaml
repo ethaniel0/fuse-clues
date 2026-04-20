@@ -1,0 +1,5 @@
+hooks:
+  write:
+    - condition: always
+      actions:
+        - eval_value: "move_board(file_content, data_str)"

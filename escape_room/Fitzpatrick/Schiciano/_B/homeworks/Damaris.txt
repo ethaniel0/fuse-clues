@@ -1,0 +1,15 @@
+1. 8
+2. Harvard
+3. FPU
+4. 1
+5. 0
+6. superscalar
+7. 2
+8. cache
+9. 2
+10. 255
+11. heap
+12. 32
+13. little-endian
+14. 16
+15. control unit

@@ -1,0 +1,15 @@
+1. 32
+2. Von Neumann
+3. ALU
+4. 0
+5. 0
+6. out-of-order
+7. 2
+8. cache
+9. 3
+10. 13
+11. heap
+12. 64
+13. little-endian
+14. 16
+15. memory controller

@@ -1,0 +1,15 @@
+1. 64
+2. Modified Harvard
+3. ALU
+4. 0
+5. 1
+6. branch prediction
+7. 8
+8. cache
+9. 1
+10. 42
+11. heap
+12. 64
+13. little-endian
+14. 8
+15. memory controller

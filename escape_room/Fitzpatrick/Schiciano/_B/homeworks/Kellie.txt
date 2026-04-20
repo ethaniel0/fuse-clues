@@ -1,0 +1,15 @@
+1. 64
+2. Harvard
+3. FPU
+4. 1
+5. 0
+6. branch prediction
+7. 8
+8. cache
+9. 3
+10. 7
+11. stack
+12. 128
+13. big-endian
+14. 8
+15. ALU

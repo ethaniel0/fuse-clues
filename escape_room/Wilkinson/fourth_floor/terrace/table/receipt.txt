@@ -1,0 +1,11 @@
+Bseisu
+
+Name: D. S.
+
+Order:
+- Large coffee
+- No sugar
+
+Pickup Time: 02:05
+
+Order #53

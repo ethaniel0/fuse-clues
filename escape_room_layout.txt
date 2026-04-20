@@ -1,0 +1,106 @@
+WILKINSON/
+  first_floor/
+    Tyler_Bletsch_Office/
+    Andrew_Hilton_office/
+    Bseisu/
+    wrap_around_tv/
+  fourth_floor/
+    dan_sorin_office/
+  fifth_floor/
+    graduate_student_lounge/
+
+
+HUDSON/
+  basement/
+  first floor/
+    pratt_announcements/
+  second floor/
+    room_216/
+    ece_masters_lounge/
+
+
+
+FITZPATRICK/
+  west/
+    basement/ 
+      server_room/
+    first_floor/
+      Schiciano_Auditorium/
+      Atrium/
+    second_floor/
+      Fishbowl/
+  east/
+    first_floor/
+      twinnies/
+
+
+
+
+STORY
+A professor gained access to my network and is going to delete my RAID array research data! The only problem is, 
+I don’t know which professor. If you help me find out who broke into my computer, I can block their IP 
+address or all my data will be gone!
+
+This professor is smart. They’ve hijacked my file system, leading to some bizarre consequences. Can you figure out the 
+professor’s tricks?
+
+...
+
+
+At the end of the game, each user will type in the IP address they found as the password for an encrypted file called 
+my_data.txt. When they open the file, it will say “Congratulations, you found the correct IP Address which reveals 
+that Professor __ accessed my network. My RAID data is saved thanks to you!”
+
+
+
+
+
+
+
+
+
+
+Someone has root access to my file system. My RAID array — three years of research — is scheduled for deletion. 
+I can block the intruder if I know their IP address, but my logs have been tampered with.
+
+Whoever did this didn't mean to. The access pattern looks clumsy — like someone clicked the wrong link and accidentally 
+got admin privileges. But the automated deletion script is already running.
+
+I've left breadcrumbs across Wilkinson, Hudson, and Fitzpatrick. One of you is in each building. 
+Find the IP address. Save the data.
+
+HINT: 
+here are some useful linux command that may be helpful as you try and find the IP address:
+  stat, ls, cat, mkdir, echo, mv, ln, chmod, df -h, rm rmdir, touch, ln -s, chown, truncate
+
+
+<hints we can give user for specific commands>
+    stat - "Always check your files' details — sizes lie more than students do."
+    ls — "Not everything worth finding wants to be found. But some things hide in plain sight."
+    cat — "Reading is fundamental. But where you start reading matters."
+    mkdir — "If a room should exist, sometimes you have to build it yourself."
+    echo — "The right words, spoken to the right place, open doors."
+    mv — "Things aren't always where they belong. Sometimes you have to move them."
+    ln — "Two names, one truth. A file can exist in more than one place at once."
+    chmod — "Locked doesn't mean forever. Permissions are just suggestions with consequences."
+    df -h — "A full disk tells stories. An empty one tells different ones."
+    rm / rmdir — "Deleting something doesn't mean it's gone. It means someone wanted it gone."
+    touch — "A file with no content is still a file. Sometimes existence is the message."
+    ln -s — "Follow the pointer, not the name. The shortcut knows where it really leads."
+    chown — "Who owns something tells you more than what's in it."
+    truncate — "Cut short. What's missing is as important as what's there."
+
+
+
+END:
+
+IP 173.236.243.69 traced to: Prof. T. Bletsch — off-campus residential
+Prof. Bletsch clicked a phishing link. He had no idea.
+RAID deletion script terminated. Your data is safe.
+
+
+
+POTENTIAL CLUES
+
+
+

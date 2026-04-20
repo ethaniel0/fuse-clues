@@ -1,0 +1,38 @@
+
+to do:
+
+
+done:
+1. Change the I have left breadcrumbs to the professor has left breadcrumbs 
+
+2. Clue 0 should say to submit answer to checkpoint answer file 
+
+3. Fix stat to not output the date hella times  [fixed by giving formatted stat in list of commands]
+
+4. Maybe in clue 0 give what stat returns [not really fixed but made stat readable]
+
+5. Need to tell the user where to go after checkpoint 
+
+6. Need to tell user in checkpoint 2 that the answer file shows up after the other player shared file 
+
+7. In hallways if you do ls ../../ masters lounge shows up - bad (might be Linux tab complete ) [ *** need to double check but i think fixed ***]
+
+8. See if in checkpoint you can accept two answers 
+
+9. Say something about hidden files 
+
+10. For what to submit put quotes around it so it’s obvious what to submit 
+
+11. Add cp to list of commands 
+
+12. Maybe get rid of masters lounge in lending log offset ?
+
+13. Make sure all the caps are good
+    - Ece display [done]
+    - Server closet [done]
+
+14. Make reference to basement file .service_record to make sure they know to look for unit 04 logs which is a hidden file 
+
+15. Clue 5 make fix path to shared folder [check]
+
+16. Everywhere where getattr value=null is used to hide from ls, need to also have readdir value=null

@@ -1,0 +1,15 @@
+1. 8
+2. Harvard
+3. ALU
+4. 0
+5. 1
+6. branch prediction
+7. 2
+8. register
+9. 2
+10. 42
+11. stack
+12. 32
+13. big-endian
+14. 16
+15. control unit

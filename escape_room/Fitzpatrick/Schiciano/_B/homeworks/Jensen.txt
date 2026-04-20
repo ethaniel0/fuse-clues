@@ -1,0 +1,15 @@
+1. 128
+2. Harvard
+3. decoder
+4. 0
+5. 0
+6. superscalar
+7. 2
+8. TLB
+9. 2
+10. 42
+11. cache line
+12. 64
+13. big-endian
+14. 16
+15. control unit

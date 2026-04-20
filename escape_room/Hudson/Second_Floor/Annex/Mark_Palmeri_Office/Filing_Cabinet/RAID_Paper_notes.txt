@@ -1,0 +1,12 @@
+RAID Draft Notes
+
+- Amelia wants routing section simplified
+- Only include ONE routing tag in final draft
+- Remove old environment examples (confusing)
+
+Reminder:
+  routing tag must match deployment location or
+  recovery will fail silently
+
+Need to double-check annex deployment before finalizing
+

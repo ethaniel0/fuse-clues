@@ -1,0 +1,77 @@
+Instantaneous Communication
+By Scooby Doo and Krypto Too
+
+# Abstract
+
+We're investigating the use of ./logs/ directory as a method of instantaneous communication between other buildings. If you copy files into this directory, people in the other buildings can see them immediately. Focusing specifically on connections between Hudson, Fitzpatrick, and Wilkinson, we believe we have discovered the fastest and most direct method of communication to date.
+
+# Introduction
+
+Efficient inter-building communication remains a critical component of modern distributed systems. Traditional approaches — including shouting, walking between buildings, and email — introduce varying degrees of latency, complexity, and infrastructure overhead. While these methods are well-understood and widely deployed, they may not fully leverage existing lower-level systems present in most environments - even though the mechanisms of these lower-level systems are not yet understood.
+
+This work explores an alternative approach: the use of shared directories (in this case `./logs`) as a communication medium. By treating filesystem writes as message broadcasts and file monitoring as message consumption, we investigate whether this mechanism can provide low-latency, reliable communication across physically distinct systems.
+
+Our focus is on three buildings—Hudson, Fitzpatrick, and Wilkinson—connected through a shared filesystem layer. We hypothesize that under appropriate conditions, log-based communication may achieve near-instantaneous propagation times while maintaining simplicity and transparency.
+
+# Methodology
+
+To evaluate this approach, we established a shared directory structure accessible by systems in all three buildings. Each node was configured to both write to and monitor their specific access point to the shared directory. In Fitzpatrick, it is called `logs`.
+
+The communication protocol was defined as follows:
+
+- Messages are written as shared files.
+- Receiving nodes continuously monitor the file using filesystem notification mechanisms (e.g., inotify or equivalent polling strategies).
+- Upon detecting new entries, nodes parse and process messages in chronological order.
+
+To ensure consistency, all systems synchronized their clocks using a standard time protocol. Message latency was measured as the time difference between write completion on the sender and detection by the receiver.
+
+We conducted tests under varying conditions, including:
+- Low and high message throughput
+- Concurrent writes from multiple nodes
+- Simulated network load on the underlying filesystem
+
+# Results
+
+Across all test scenarios, the system demonstrated consistently low communication latency. Under typical conditions, message propagation times between buildings were measured in the range of 1–5 milliseconds, with occasional spikes under heavy load.
+
+Key observations include:
+
+- **Latency:**  
+  Median latency remained below 3 ms across all building pairs, with Hudson–Fitzpatrick links performing about the same as others.
+
+- **Reliability:**  
+  No messages were lost during testing. However, in cases of concurrent writes, message interleaving required careful parsing.
+
+- **Scalability:**  
+  Performance degraded slightly as the number of concurrent writers increased, primarily due to filesystem contention.
+
+- **Transparency:**  
+  Messages were human-readable and easily inspectable, simplifying debugging and verification.
+
+# Discussion
+
+The results suggest that log-based communication via a shared filesystem is a viable alternative to traditional messaging systems in certain environments. Its primary advantages include minimal setup, high transparency, and competitive latency.
+
+One notable strength of this approach is its reliance on our fortuitous existing infrastructure. By leveraging a shared folder, the system avoids the need for additional services or protocols, reducing both operational overhead and potential points of failure.
+
+However, several limitations must be considered:
+
+- **Concurrency Control:**  
+  Simultaneous writes can lead to race conditions or partial message interleaving without proper safeguards.
+
+- **Scalability Constraints:**  
+  As system size grows, filesystem contention may become a bottleneck.
+
+- **Security Considerations:**  
+  Shared access to log files necessitates appropriate permission management to prevent unauthorized reads or writes.
+
+- **Understanding:**  
+  The reason why these shared directories are accessible and function is not yet understood, so we cannot yet be sure of what side effects or vulnerabilities this method may have.
+
+Despite these challenges, the simplicity of the model makes it particularly attractive for controlled environments where rapid deployment and ease of inspection are prioritized.
+
+# Conclusion
+
+This study demonstrates that shared log directories can serve as an effective medium for low-latency inter-building communication. While not a universal replacement for established messaging systems, this approach offers a compelling combination of simplicity, performance, and transparency.
+
+Future work will explore structured logging formats, improved concurrency mechanisms, and potential extensions to broader distributed environments. With further refinement, log-based communication may represent a practical addition to the set of tools available for distributed system design.

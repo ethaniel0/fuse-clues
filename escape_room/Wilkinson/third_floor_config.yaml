@@ -1,0 +1,27 @@
+hooks:
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "fourth_floor/terrace/door/panel.txt"
+            expected_substring: "status: unlocked"
+      actions:
+        - value: null
+
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "fourth_floor/terrace/door/panel.txt"
+            expected_substring: "status: unlocked"
+      actions:
+        - value: null
+
+  access:
+    - condition:
+        not:
+          file_content_contains:
+            path: "fourth_floor/terrace/door/panel.txt"
+            expected_substring: "status: unlocked"
+      actions:
+        - value: false

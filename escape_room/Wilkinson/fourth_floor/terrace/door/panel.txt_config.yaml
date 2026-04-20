@@ -1,0 +1,23 @@
+hooks:
+  getattr:
+    - condition: always
+      actions:
+        - value:
+            size: 512
+
+  read:
+    - condition:
+        offset:
+          threshold: 512
+          mode: gte
+      actions:
+        - content_text: |
+            code: 18
+
+            submit code to panel
+
+  write:
+    - condition: always
+      actions:
+        - eval_value: |
+            "WILKINSON TERRACE ACCESS\n\nstatus: unlocked\n\n" if data_str.strip() == "18" else "WILKINSON TERRACE ACCESS\n\nstatus: locked\n\nenter code \n"

@@ -1,0 +1,8 @@
+hooks:
+  read:
+    - condition:
+        offset:
+          threshold: 10
+          mode: gte
+      actions:
+        - content_text: "haha get fooled\n"

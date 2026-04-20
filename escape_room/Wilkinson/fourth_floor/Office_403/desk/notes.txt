@@ -1,0 +1,9 @@
+Need to go back down to the garage lab.
+
+The panel wiring is wrong again.
+I heard the wires are missing, will need to trim their
+lengths again - the factory lengths are too long.
+
+Use the docs provided to know how much to cut and how to route the wires!
+
+The card reader should still accept my pass.

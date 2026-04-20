@@ -1,0 +1,11 @@
+GARAGE LAB REPAIR LOG
+
+We cannot access the locker because the panels wires are all garbled!
+It has important notes and IDs to access the Fitzpatrick data center.
+
+If wires are missing, ask Chris Bingham from Hudson for replacement parts.
+Make sure to use the bench when working with wires!
+
+Verify positions.
+Trim first using wire cutter.
+Route second to the correct panel and terminals.

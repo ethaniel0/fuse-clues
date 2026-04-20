@@ -1,0 +1,15 @@
+1. 8
+2. Modified Harvard
+3. decoder
+4. 0
+5. 1
+6. pipelining
+7. 4
+8. RAM
+9. 2
+10. 255
+11. stack
+12. 32
+13. big-endian
+14. 4
+15. control unit

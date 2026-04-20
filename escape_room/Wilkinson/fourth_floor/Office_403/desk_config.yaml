@@ -1,0 +1,10 @@
+hooks:
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "white_board.txt"
+            expected_substring: "1011010"
+      actions:
+        - value:
+            mode: 16384

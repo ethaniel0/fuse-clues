@@ -1,0 +1,51 @@
+available_hooks: # format: {hook: variables}
+  - read: offset, size, path
+  - write: offset, size, path
+  - readdir_visibility:  path
+  - get_visibility: path
+  - access: path
+
+available_conditions: # format: {condition: list[var_type var_name]}
+  # general conditions (available for all)
+  - always: none                    # always returns true
+  - all: Condition[] conditions     # all conditions must be true
+  - any: Condition[] conditions     # at least one condition must be true
+  - not: Condition condition        # negates the result of the condition
+  - file_exists: string path        # true if the file at the given path exists
+  - dir_exists: string path         # true if the directory at the given path exists
+  - file_content_matches: string path (empty string for self), regex content  # true if the file content at the given path matches the regex
+  - file_content_contains: string path (empty string for self), regex content # true if the file content at the given path contains the given regex
+  - attribute_equals: string attribute, string value
+  - permissions_equals: string path (filename or dirname, empty string for self), string permissions (e.g. "rw-r--r--")
+  - can_access: string path (filename or dirname, empty string for self), string can_read (literal of "user", "group", "other", "no", "yes")
+
+  # read/write-only conditions
+  - offset: string mode, int threshold  # compares the offset to the threshold using the specified mode (gte, lte, gt, lt, eq, ne)
+  - size: string mode, int threshold    # compares the size to the threshold using the specified
+
+available_actions:
+  - set_value # different for each hook
+  - set_visible # only for readdir 
+
+
+
+hooks:
+  read:
+    - condition: 
+      offset: &threshold_condition
+        threshold: 10
+        mode: gte, lte, gt, lt, eq, ne
+      actions: &read_write_actions
+        - content_text: "some text"
+        - content_file: "some file"
+        - content_eval: "some python expression, including the variables offset, size, and path"
+
+    - condition:
+      size: *threshold_condition
+      actions: *read_write_actions
+
+
+  readdir:
+    - condition: always
+      actions:
+        - set_value: ""

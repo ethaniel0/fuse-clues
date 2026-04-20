@@ -1,0 +1,9 @@
+return :
+  [unit #4 return logged]
+  [signal NEEDS to be sent]
+  [wait for display board updated — check first floor]
+
+  to do:
+    send ip_addr.txt to player in Fitzpatrick through ../../../shared_folder/
+
+    

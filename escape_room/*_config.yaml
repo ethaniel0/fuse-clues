@@ -1,0 +1,12 @@
+hooks:
+  readdir:
+    - condition: &completed
+        file_content_matches:
+          path: /secret_code.txt
+          expected_content: "read block write block"
+      actions:
+        - value: "You completed the escape room!"
+  getattr:
+    - condition: *completed
+      actions:
+        - value: {}

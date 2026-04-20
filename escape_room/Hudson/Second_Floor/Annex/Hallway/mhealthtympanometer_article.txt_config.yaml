@@ -1,0 +1,25 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  readdir:
+    - condition:
+        not:
+          file_exists: "../../../../shared_folder/RAID_Paper_Poster.txt"
+      actions:
+        - value: null
+
+  getattr:
+    - condition:
+        not:
+          file_exists: "../../../../shared_folder/RAID_Paper_Poster.txt"
+      actions:
+        - value: null
+
+
+# change so that it appearsd when the raid paper poster is present 

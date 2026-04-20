@@ -1,0 +1,9 @@
+White to move, try and solve this mate-in-two while waiting for your order!
+
+Regulars have been arguing about the solution all morning.
+Below, they each wrote down their answer and where to find them.
+
+- Move 1: Nh6+   , Move 2: Qg4       — 103
+- Move 1: Ne7+   , Move 2: Ng6       — 105
+- Move 1: Qg4+   , Move 2: Qg7       — 403
+- Move 1: Qg4+   , Move 2: Qg8       — 411

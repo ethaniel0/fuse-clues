@@ -1,0 +1,42 @@
+EoFC: Ethernet Over Fibre Channel: New Solutions to Replace Cheap Systems with Expensive Ones
+By Lennon and Bria
+
+Abstract
+This project presents Ethernet over Fibre Channel (EoFC), an emerging conceptual framework for transporting Ethernet traffic over Fibre Channel infrastructure. By unifying two powerful and well-established technologies, EoFC aspires to create a versatile, enterprise-grade networking paradigm with considerable nuance. Preliminary evaluations suggest that EoFC introduces new opportunities for architectural sophistication, enhanced ego, and expanded budgeting exercises. While its advantages may not yet be immediately obvious in all scenarios, EoFC shows promise as a potential addition to the ever-growing repertoire of advanced IT solutions.
+
+Introduction
+Modern networking has largely converged on Ethernet as a universal standard due to its simplicity, flexibility, and widespread adoption. Fibre Channel, on the other hand, is a specialized protocol primarily used in storage area networks (SANs), prized for its performance, reliability, and ability to justify very expensive hardware.
+
+Given the success of both technologies in their respective domains, it is only natural to ask: What if they worked together more closely?
+Ethernet over Fibre Channel (EoFC) proposes to encapsulate Ethernet traffic within Fibre Channel frames, allowing existing Fibre Channel infrastructure to support general-purpose networking workloads. While some may argue that Ethernet already performs this role adequately, this project explores whether EoFC could offer a more nuanced solution.
+
+Methodology
+To evaluate the feasibility of EoFC, a prototype system was developed using the following carefully considered steps:
+	1	Encapsulation StrategyEthernet frames were encapsulated within Fibre Channel frames, ensuring compatibility while also introducing helpful layers of abstraction.
+	2	Infrastructure SelectionStandard Ethernet switches were deliberately avoided in favor of: Fibre Channel switches, specialized host bus adapters (HBAs), and a budget that was immediately exceeded.
+	3	System ConfigurationConfiguration was performed using a combination of documentation, experimentation, and iterative refinement, and forum posts from 2009.
+	4	Performance EvaluationMetrics such as latency, throughput, and overall system responsiveness were measured, along with secondary indicators like “time spent configuring” and “number of tabs open.”
+	5	Baseline ComparisonResults were compared to a standard Ethernet deployment, primarily to contextualize the unique characteristics of EoFC.
+
+Results
+Testing revealed several notable outcomes:
+	•	Functionality: Data was successfully transmitted, confirming that the system works in the same sense that a Rube Goldberg machine works.
+	•	Latency: Latency increased modestly, likely due to the added encapsulation layers, though this may be interpreted as a trade-off for enhanced architectural richness.
+	•	Throughput: Comparable to Ethernet in some cases, but only after extensive tuning and emotional investment.
+	•	Cost: Deployment costs were higher than traditional Ethernet solutions, reflecting the premium nature of the underlying infrastructure and its expanded role.
+	•	Complexity: System complexity increased, offering greater flexibility and more opportunities for fine-grained control.
+
+Discussion
+The introduction of EoFC highlights an important principle in system design: additional layers can provide additional possibilities. By combining Ethernet and Fibre Channel, EoFC creates a hybrid environment that encourages deeper engagement with network configuration and design.
+While traditional Ethernet solutions prioritize simplicity and efficiency, EoFC invites users to explore a more expressive configuration space. This may initially present challenges, but it also opens the door to highly customized deployments and enhanced job security.
+Critically, EoFC may be particularly well-suited to environments where:
+	•	Existing Fibre Channel infrastructure is underutilized
+	•	There is interest in expanding the conceptual boundaries of networking
+	•	Simplicity is actively discouraged
+As with many emerging approaches, the full potential of EoFC may not yet be fully realized, suggesting exciting opportunities for future refinement and adoption.
+
+Conclusion
+This study demonstrates that Ethernet over Fibre Channel is not only feasible, but also introduces a compelling new direction for network architecture. While it may not replace traditional Ethernet deployments in all cases, it represents a meaningful expansion of the design space and could become a valuable addition to the modern IT toolkit.
+With further development, standardization, and sufficient enthusiasm, EoFC has the potential to evolve into another respected (and impressively named) entry in the networking landscape.
+
+Future Work:Future research may explore even more ambitious integrations, such as running USB over SMTP or implementing blockchain-based DNS resolution, further advancing the field of unnecessary engineering.

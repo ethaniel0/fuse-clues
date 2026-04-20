@@ -1,0 +1,12 @@
+Andrew Hilton — session notes 03/04
+
+Been seeing unusual access patterns on the RAID array all week.
+Student job accounts, but the timing is off.
+
+Dumped the raw access logs before I left. File got large fast
+so I compressed them.
+
+If something looks wrong, Bletsch would know - his office is right next to mine.
+He set up the monitoring system.
+
+— A.H.

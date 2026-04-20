@@ -1,0 +1,15 @@
+1. 32
+2. Harvard
+3. decoder
+4. 0
+5. 1
+6. out-of-order
+7. 16
+8. register
+9. 3
+10. 255
+11. register
+12. 128
+13. little-endian
+14. 8
+15. control unit

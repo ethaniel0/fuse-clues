@@ -1,0 +1,7 @@
+hooks:
+  write: &disallow
+    - condition: always
+      actions:
+        - allow: false
+  truncate: *disallow
+  unlink: *disallow

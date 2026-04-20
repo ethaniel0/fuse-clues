@@ -1,0 +1,12 @@
+Low-Power RAID Architectures for Embedded Systems
+M. Palmeri, A. Cook
+Submitted 03/01/2025
+
+Abstract: We propose a fault-tolerant RAID configuration
+optimized for embedded deployments. Performance benchmarks
+across 236 test nodes demonstrate a 40% reduction in
+write latency versus conventional RAID-5 configurations.
+
+[draft continues — academic content]
+
+NOTE: poster version going up in the annex hallway this week.

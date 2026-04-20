@@ -1,0 +1,56 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ INCOMING MESSAGE — PRIORITY: CRITICAL ]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+From:    sophie.pelton@duke.edu
+Subject: UNAUTHORIZED ACCESS — RAID DATA AT RISK
+
+A professor gained access to my network and is going
+to delete my RAID array research data. The only problem
+is, I don't know which professor.
+
+If you help me find out who broke into my computer,
+I can block their IP address — or else all my data will
+be gone.
+
+This professor is smart. They've hijacked my file
+system, leading to some bizarre consequences. Can you
+figure out their tricks?
+
+They've left breadcrumbs across Wilkinson, Hudson, and
+Fitzpatrick. One of you is in each building.
+
+Find the IP address. Save the data.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ HINT ]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Some linux commands that may be useful:
+
+  stat -x               — inspect file metadata [the -x flag makes the output readable on MacOS, leave out if running on ubuntu]
+  ls / ls -l / ls -la   — list directory contents
+  cat                   — read a file
+  dd                    — read from a specific byte offset [dd if=path_to_file bs=1 skip=bytes_to_skip 2>/dev/null]
+  echo                  — write output to a file
+  cp                    - copy a file to another directory / location
+  cd                    - move through directory structure
+
+Things are NOT always what they seem.
+Metadata LIES. Permissions LIE. Things may be HIDDEN.
+Patterns may REVEAL something.
+Trust what you can open, NOT what you can see.
+
+
+At the end of each clue, submit discovered token to  checkpoint_#_answer.txt file. 
+If that file does not exist in the folder where checkpoint_#.txt is, that means you 
+need to complete a task before the answer file is released. 
+
+Once the answer is correct, a file (checkpoint_#_next_location.txt) will be released, 
+sharing your next location to investigate.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ YOU ARE LOCKED IN. THE CLOCK IS RUNNING. ]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+

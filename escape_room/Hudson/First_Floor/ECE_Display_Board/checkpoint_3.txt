@@ -1,0 +1,3 @@
+checkpoint: clue_3
+submit next location token here
+

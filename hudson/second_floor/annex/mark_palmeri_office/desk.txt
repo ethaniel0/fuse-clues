@@ -1,0 +1,7 @@
+Reminders: 
+  - Take bike to shop before next mountain bike trip
+  - Fix cabinet's lock
+  - Bring wifes sourdough to class
+  - Keep training claude for grading 
+  - Amelia Cook still hasn't signed off on the draft -> Left a copy in the cabinet for him to review.
+  - use dd for low-level disk checks, not cat

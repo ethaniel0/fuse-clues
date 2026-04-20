@@ -1,0 +1,15 @@
+1. 32
+2. Harvard
+3. FPU
+4. 0
+5. 1
+6. out-of-order
+7. 4
+8. RAM
+9. 3
+10. 13
+11. stack
+12. 32
+13. little-endian
+14. 4
+15. memory controller

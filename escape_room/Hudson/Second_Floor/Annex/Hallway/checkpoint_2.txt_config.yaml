@@ -1,0 +1,26 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../Mark_Palmeri_Office/checkpoint_1_answer.txt"
+            expected_substring: "(?i)Annex_Hallway"
+      actions:
+        - value: ""
+        
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../Mark_Palmeri_Office/checkpoint_1_answer.txt"
+            expected_substring: "(?i)Annex_Hallway"
+      actions:
+        - value: null

@@ -1,0 +1,9 @@
+hooks:
+  read:
+    - condition: always
+      actions:
+        - eval_value: "chr(0) * size"
+  access:
+    - condition: always
+      actions:
+        - set_value: 0444

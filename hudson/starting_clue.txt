@@ -1,0 +1,57 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ INCOMING MESSAGE — PRIORITY: CRITICAL ]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+From:    sysadmin@duke.local
+Subject: UNAUTHORIZED ACCESS — RAID DATA AT RISK
+
+A professor gained access to my network and is going
+to delete my RAID array research data. The only problem
+is, I don't know which professor.
+
+If you help me find out who broke into my computer,
+I can block their IP address — or all my data will
+be gone.
+
+This professor is smart. They've hijacked my file
+system, leading to some bizarre consequences. Can you
+figure out their tricks?
+
+I've left breadcrumbs across Wilkinson, Hudson, and
+Fitzpatrick. One of you is in each building.
+
+Find the IP address. Save the data.
+
+Don't be afraid of being in the same room or calling your teammates to 
+convey clues you find and puzzles you solve!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ HINT ]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Some linux commands that may be useful:
+
+  stat        — inspect file metadata
+  ls / ls -l / ls -la   — list directory contents
+  cat         — read a file
+  dd          — read from a specific byte offset
+  mkdir       — make a directory
+  echo        — write output to a file
+  chmod       — change file permissions
+  touch       — create an empty file
+  ln / ln -s  — create hard or symbolic links
+  chown       — change file ownership
+  df -h       — check disk usage
+  truncate    — shrink or extend a file
+  rm / rmdir  — remove files or directories
+
+Things are not always what they seem.
+Metadata lies. Permissions lie.
+Trust what you can open, not what you can see.
+
+At the end of each clue, submit discovered token at local 
+checkpoint file.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ YOU ARE LOCKED IN. THE CLOCK IS RUNNING. ]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

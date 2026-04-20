@@ -1,0 +1,15 @@
+1. 16
+2. Modified Harvard
+3. FPU
+4. 0
+5. 1
+6. pipelining
+7. 8
+8. cache
+9. 1
+10. 7
+11. register
+12. 32
+13. big-endian
+14. 16
+15. ALU

@@ -1,0 +1,10 @@
+ECE 566 — RAID Analysis Notes
+
+Focus: job classification
+
+System and backup jobs generate most of the noise.
+
+The relevant activity comes from user-submitted tasks.
+
+Filter on:
+  job:student

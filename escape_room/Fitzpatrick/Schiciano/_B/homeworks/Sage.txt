@@ -1,0 +1,15 @@
+1. 128
+2. Harvard
+3. ALU
+4. 1
+5. 0
+6. pipelining
+7. 2
+8. RAM
+9. 2
+10. 7
+11. stack
+12. 128
+13. big-endian
+14. 16
+15. control unit

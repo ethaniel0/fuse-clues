@@ -1,0 +1,14 @@
+hooks:
+  getattr:
+    - condition: always
+      actions:
+        - value: null
+  readdir:
+    - condition: always
+      actions:
+        - value: null
+  rmdir: 
+    - condition: always
+      actions:
+        - allow: false
+        

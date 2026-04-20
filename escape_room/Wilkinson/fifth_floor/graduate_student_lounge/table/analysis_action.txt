@@ -1,0 +1,13 @@
+ECE 566 — RAID Analysis Notes
+
+Focus: action type
+
+Most entries are normal reads.
+
+That alone won’t isolate the anomaly.
+
+The one you want is still a read —
+just not the standard kind.
+
+Filter on:
+  action:read

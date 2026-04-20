@@ -1,0 +1,2030 @@
+[01:50:00] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:50:00] job:system  src:10.0.1  target:RAID-C  action:check        auth:fail
+[01:50:01] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:50:01] job:student src:240.68  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[01:50:02] job:student src:240.68  target:RAID-B  action:sync         auth:ok
+[01:50:04] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[01:50:08] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:50:11] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:50:12] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:50:13] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[01:50:13] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:50:15] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:50:15] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:50:16] job:backup  src:192.10  target:RAID-A  action:read         auth:override
+[01:50:19] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:50:24] job:student src:241.12  target:RAID-C  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[01:50:27] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[01:50:29] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:50:30] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[01:50:31] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[01:50:31] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[01:50:32] job:student src:241.12  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[01:50:34] job:system  src:10.0.2  target:RAID-B  action:check        auth:ok
+[01:50:37] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[01:50:38] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[01:50:39] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:50:40] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:50:41] job:backup  src:192.10  target:RAID-C  action:read_direct  auth:ok
+[01:50:41] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[01:50:43] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:50:44] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[01:50:44] job:student src:240.68  target:RAID-A  action:sync         auth:ok  flag:CHECKSUM_WARN
+[01:50:44] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:50:45] job:student src:241.12  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:50:46] job:student src:239.77  target:RAID-C  action:read         auth:override
+[01:50:46] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:50:46] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[01:50:47] job:student src:240.68  target:RAID-B  action:write        auth:ok
+[01:50:47] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:50:48] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:50:48] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[01:50:52] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[01:50:52] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:50:55] job:system  src:10.0.1  target:RAID-B  action:read_direct  auth:ok  flag:UNPROTECTED
+[01:50:55] job:student src:241.12  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:50:58] job:backup  src:192.10  target:RAID-A  action:write        auth:override  flag:UNPROTECTED
+[01:50:58] job:student src:241.12  target:RAID-A  action:sync         auth:ok
+[01:50:59] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[01:51:00] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:51:01] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[01:51:01] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:51:05] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:51:06] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:51:08] job:system  src:10.0.2  target:RAID-B  action:check        auth:ok
+[01:51:08] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:51:10] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:51:12] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[01:51:12] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok
+[01:51:15] job:student src:240.68  target:RAID-B  action:sync         auth:ok
+[01:51:15] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[01:51:17] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[01:51:18] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:51:18] job:student src:241.12  target:RAID-A  action:sync         auth:ok
+[01:51:21] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[01:51:22] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:51:27] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[01:51:29] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[01:51:35] job:student src:239.77  target:RAID-A  action:sync         auth:fail
+[01:51:36] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[01:51:37] job:student src:240.68  target:RAID-A  action:read         auth:fail
+[01:51:40] job:student src:241.12  target:RAID-C  action:check        auth:ok
+[01:51:43] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[01:51:43] job:student src:240.68  target:RAID-C  action:check        auth:ok
+[01:51:46] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:51:46] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:51:48] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:51:48] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:51:49] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:51:50] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[01:51:51] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[01:51:51] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[01:51:53] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[01:51:55] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok
+[01:51:55] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:51:56] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[01:52:03] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:52:03] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[01:52:05] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:52:06] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[01:52:09] job:student src:240.68  target:RAID-B  action:write        auth:ok
+[01:52:09] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok
+[01:52:11] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[01:52:11] job:system  src:10.0.1  target:RAID-B  action:read         auth:override
+[01:52:11] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:52:13] job:student src:239.77  target:RAID-A  action:write        auth:ok
+[01:52:14] job:student src:240.68  target:RAID-A  action:write        auth:ok  flag:DELAYED_WRITE
+[01:52:16] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:52:24] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:52:26] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:52:26] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[01:52:30] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:52:31] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[01:52:31] job:backup  src:192.10  target:RAID-B  action:read         auth:override
+[01:52:33] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:52:33] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok
+[01:52:38] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[01:52:44] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[01:52:48] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[01:52:52] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:52:52] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[01:52:57] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:52:57] job:system  src:10.0.1  target:RAID-A  action:read         auth:fail
+[01:52:59] job:student src:240.68  target:RAID-B  action:sync         auth:ok
+[01:53:00] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:53:01] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:53:02] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[01:53:06] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[01:53:08] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok  flag:UNPROTECTED
+[01:53:10] job:backup  src:192.10  target:RAID-C  action:check        auth:ok  flag:CHECKSUM_WARN
+[01:53:14] job:system  src:10.0.1  target:RAID-B  action:read         auth:override
+[01:53:17] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:53:26] job:system  src:10.0.1  target:RAID-B  action:read         auth:fail
+[01:53:26] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:53:31] job:student src:241.12  target:RAID-B  action:check        auth:override  flag:DELAYED_WRITE
+[01:53:32] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[01:53:33] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:53:36] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:53:36] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[01:53:38] job:backup  src:192.10  target:RAID-B  action:read         auth:fail
+[01:53:40] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[01:53:42] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:53:51] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:53:53] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:53:53] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:53:55] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:53:55] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:53:56] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok
+[01:53:58] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:54:00] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:54:02] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:54:03] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:54:04] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:54:04] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[01:54:08] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[01:54:13] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok  flag:CHECKSUM_WARN
+[01:54:13] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:54:13] job:student src:241.12  target:RAID-C  action:check        auth:ok  flag:DELAYED_WRITE
+[01:54:13] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok  flag:DELAYED_WRITE
+[01:54:14] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok  flag:CHECKSUM_WARN
+[01:54:17] job:backup  src:192.10  target:RAID-C  action:read         auth:override
+[01:54:22] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:54:22] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:54:27] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[01:54:27] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[01:54:29] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[01:54:31] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[01:54:33] job:backup  src:192.10  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[01:54:34] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:54:34] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[01:54:36] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:54:36] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:54:40] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[01:54:40] job:student src:241.12  target:RAID-A  action:write        auth:ok  flag:DELAYED_WRITE
+[01:54:42] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:54:43] job:student src:240.68  target:RAID-A  action:read         auth:fail  flag:CHECKSUM_WARN
+[01:54:44] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[01:54:45] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:54:47] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:54:51] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[01:54:52] job:student src:241.12  target:RAID-A  action:read         auth:fail
+[01:54:55] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:54:57] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:54:57] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:55:00] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[01:55:01] job:student src:239.77  target:RAID-C  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[01:55:01] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[01:55:02] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:55:05] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[01:55:08] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[01:55:08] job:backup  src:192.10  target:RAID-B  action:check        auth:fail  flag:DELAYED_WRITE
+[01:55:13] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[01:55:13] job:backup  src:192.10  target:RAID-C  action:sync         auth:fail
+[01:55:24] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[01:55:24] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[01:55:26] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[01:55:31] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[01:55:31] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:55:31] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:55:37] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[01:55:38] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:55:40] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[01:55:41] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:55:43] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:55:44] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:55:44] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:55:46] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:55:46] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:55:47] job:student src:241.12  target:RAID-B  action:write        auth:ok  flag:CHECKSUM_WARN
+[01:55:48] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:55:50] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[01:55:50] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[01:55:51] job:student src:239.77  target:RAID-B  action:sync         auth:ok
+[01:55:51] job:system  src:10.0.2  target:RAID-C  action:read_direct  auth:ok
+[01:55:51] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:55:55] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[01:56:01] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok
+[01:56:02] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[01:56:04] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:56:06] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:56:11] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:56:13] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:56:13] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[01:56:19] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[01:56:21] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[01:56:24] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:56:24] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:56:25] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[01:56:25] job:student src:241.12  target:RAID-B  action:write        auth:ok
+[01:56:30] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok
+[01:56:31] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[01:56:31] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:56:38] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[01:56:39] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:56:47] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:56:49] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:56:54] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[01:56:55] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[01:56:57] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:56:58] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[01:56:59] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[01:57:04] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:57:04] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[01:57:06] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[01:57:06] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[01:57:09] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:57:09] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[01:57:12] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[01:57:13] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:override
+[01:57:15] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[01:57:18] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:57:19] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[01:57:24] job:system  src:10.0.1  target:RAID-C  action:read         auth:fail
+[01:57:26] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:57:32] job:student src:240.68  target:RAID-C  action:read         auth:override
+[01:57:34] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:57:36] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[01:57:36] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[01:57:36] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[01:57:38] job:student src:241.12  target:RAID-C  action:check        auth:ok
+[01:57:38] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:57:39] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[01:57:39] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[01:57:43] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:57:45] job:student src:241.12  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:57:46] job:student src:241.12  target:RAID-C  action:sync         auth:fail
+[01:57:47] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[01:57:47] job:backup  src:192.10  target:RAID-C  action:read         auth:override
+[01:57:47] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[01:57:47] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:57:52] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[01:57:53] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:57:54] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:57:55] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[01:57:57] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[01:58:01] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:58:01] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:58:04] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[01:58:05] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok
+[01:58:08] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[01:58:09] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:58:10] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[01:58:13] job:student src:241.12  target:RAID-A  action:check        auth:override
+[01:58:14] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[01:58:18] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[01:58:19] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:58:19] job:backup  src:192.10  target:RAID-B  action:read         auth:override
+[01:58:21] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[01:58:24] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[01:58:24] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[01:58:27] job:student src:239.77  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[01:58:27] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:58:28] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:58:32] job:student src:239.77  target:RAID-C  action:sync         auth:ok  flag:DELAYED_WRITE
+[01:58:35] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:58:35] job:student src:240.68  target:RAID-A  action:read         auth:fail
+[01:58:43] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[01:58:43] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:58:45] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[01:58:46] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[01:58:48] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:58:55] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[01:58:59] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok  flag:CHECKSUM_WARN
+[01:59:00] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[01:59:01] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[01:59:04] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok  flag:CHECKSUM_WARN
+[01:59:05] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[01:59:06] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[01:59:08] job:student src:241.12  target:RAID-C  action:read         auth:fail
+[01:59:08] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[01:59:11] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:59:12] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[01:59:12] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:59:12] job:system  src:10.0.1  target:RAID-B  action:sync         auth:fail
+[01:59:13] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[01:59:14] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[01:59:14] job:student src:240.68  target:RAID-B  action:sync         auth:ok
+[01:59:14] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[01:59:16] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[01:59:16] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:59:24] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[01:59:24] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[01:59:24] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[01:59:25] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[01:59:26] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:59:27] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[01:59:31] job:student src:240.68  target:RAID-A  action:sync         auth:fail
+[01:59:31] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[01:59:32] job:student src:241.12  target:RAID-B  action:write        auth:fail  flag:UNPROTECTED
+[01:59:35] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[01:59:37] job:system  src:10.0.1  target:RAID-C  action:sync         auth:ok
+[01:59:39] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[01:59:39] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[01:59:40] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[01:59:40] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:59:41] job:student src:241.12  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[01:59:43] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[01:59:46] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[01:59:49] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[01:59:50] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok
+[01:59:54] job:backup  src:192.10  target:RAID-A  action:write        auth:ok  flag:UNPROTECTED
+[01:59:54] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[01:59:58] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:00:00] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:00:02] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:00:04] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:00:05] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:00:07] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:00:08] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:00:09] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:00:09] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:00:11] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:00:22] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:00:24] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:00:25] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:00:25] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:00:25] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:00:28] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:00:28] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:00:28] job:system  src:10.0.1  target:RAID-B  action:read         auth:fail  flag:DELAYED_WRITE
+[02:00:29] job:student src:239.77  target:RAID-C  action:check        auth:ok
+[02:00:30] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:00:31] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[02:00:31] job:student src:241.12  target:RAID-A  action:check        auth:ok
+[02:00:35] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok  flag:DELAYED_WRITE
+[02:00:36] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[02:00:38] job:student src:239.77  target:RAID-B  action:sync         auth:ok
+[02:00:38] job:student src:241.12  target:RAID-C  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[02:00:46] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:00:47] job:system  src:10.0.1  target:RAID-C  action:read         auth:fail
+[02:00:49] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:00:49] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:00:50] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:00:52] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:00:53] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:00:55] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:00:57] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:00:58] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:01:01] job:student src:239.77  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:01:03] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:01:10] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:01:19] job:student src:239.77  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:01:19] job:backup  src:192.10  target:RAID-B  action:write        auth:ok  flag:UNPROTECTED
+[02:01:22] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:01:23] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:01:24] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:01:25] job:student src:240.68  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:01:26] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:01:27] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:01:29] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:01:29] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:01:30] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:01:31] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:01:31] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:01:36] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:01:36] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:01:39] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:01:40] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[02:01:41] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:override
+[02:01:45] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[02:01:51] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:01:54] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:01:54] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:01:55] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:01:57] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok  flag:DELAYED_WRITE
+[02:01:58] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:01:58] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:01:59] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:02:01] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:02:02] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:02:03] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:02:09] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:02:09] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:02:10] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:02:11] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:02:12] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:02:12] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok
+[02:02:14] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:02:15] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:02:15] job:backup  src:192.10  target:RAID-A  action:read         auth:override
+[02:02:16] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:02:18] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:02:20] job:student src:240.68  target:RAID-A  action:sync         auth:override
+[02:02:24] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:02:25] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:02:26] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:02:27] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:02:29] job:student src:240.68  target:RAID-C  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:02:30] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:02:31] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:02:31] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:02:33] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:02:35] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:02:36] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:02:37] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:02:38] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:02:40] job:system  src:10.0.2  target:RAID-B  action:read         auth:fail
+[02:02:42] job:student src:239.77  target:RAID-C  action:read         auth:fail
+[02:02:44] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:02:47] job:system  src:10.0.2  target:RAID-A  action:read         auth:override
+[02:02:48] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:02:49] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:02:50] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:02:51] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:02:52] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:02:53] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:02:54] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:02:56] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:03:01] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:03:03] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:03:04] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:03:05] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:03:09] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:03:10] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:03:13] job:backup  src:192.10  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:03:19] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:03:21] job:student src:240.68  target:RAID-C  action:read         auth:override
+[02:03:22] job:backup  src:192.10  target:RAID-B  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:03:24] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:03:24] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:03:24] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:03:25] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:03:27] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:03:27] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:03:27] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:03:28] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:03:28] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:03:29] job:student src:240.68  target:RAID-A  action:sync         auth:ok
+[02:03:30] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:03:30] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:03:31] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:03:34] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:03:35] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:03:37] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:03:38] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:03:39] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:03:45] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:03:46] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:03:47] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:03:47] job:student src:239.77  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:03:47] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:03:48] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:03:48] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:03:51] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:03:55] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:03:58] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[02:03:59] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:04:01] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:04:02] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:04:03] job:student src:241.12  target:RAID-B  action:write        auth:ok
+[02:04:03] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:04:07] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:04:11] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:04:18] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:04:22] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[02:04:24] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:04:25] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:04:25] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:04:28] job:student src:239.77  target:RAID-A  action:read_direct  auth:ok
+[02:04:28] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:04:29] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:04:31] job:student src:241.12  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:04:35] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:04:36] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:04:36] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:04:38] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:04:38] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:04:40] job:backup  src:192.10  target:RAID-B  action:read         auth:fail
+[02:04:42] job:backup  src:192.10  target:RAID-B  action:write        auth:fail  flag:DELAYED_WRITE
+[02:04:42] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:04:44] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:04:45] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok
+[02:04:45] job:student src:240.68  target:RAID-C  action:check        auth:ok
+[02:04:46] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:04:52] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:04:52] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:04:53] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:04:54] job:student src:241.12  target:RAID-B  action:write        auth:ok
+[02:04:57] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:04:58] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:04:59] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:05:00] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:override  flag:UNPROTECTED
+[02:05:01] job:student src:240.68  target:RAID-A  action:read         auth:override
+[02:05:01] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:05:02] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:05:04] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:05:04] job:backup  src:192.10  target:RAID-C  action:sync         auth:fail
+[02:05:04] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:05:05] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:05:06] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:05:07] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:05:10] job:student src:241.12  target:RAID-B  action:sync         auth:ok
+[02:05:11] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok  flag:UNPROTECTED
+[02:05:11] job:student src:240.68  target:RAID-A  action:read_direct  auth:override
+[02:05:12] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:05:12] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:05:12] job:student src:239.77  target:RAID-A  action:read_direct  auth:ok  flag:UNPROTECTED
+[02:05:13] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:05:13] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:05:13] job:student src:240.68  target:RAID-A  action:check        auth:ok  flag:UNPROTECTED
+[02:05:14] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:05:17] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:05:17] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:05:17] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:override  flag:UNPROTECTED
+[02:05:17] job:student src:241.12  target:RAID-A  action:sync         auth:fail  flag:CHECKSUM_WARN
+[02:05:17] job:student  src:243.69  target:RAID-A  action:read_direct  auth:override  flag:UNPROTECTED
+[02:05:18] job:student src:239.77  target:RAID-C  action:check        auth:override
+[02:05:20] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:05:22] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:05:22] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:05:22] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[02:05:24] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:05:24] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:05:24] job:student src:240.68  target:RAID-A  action:sync         auth:fail  flag:CHECKSUM_WARN
+[02:05:25] job:backup  src:192.10  target:RAID-C  action:read_direct  auth:ok
+[02:05:27] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:05:27] job:student src:241.12  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:05:29] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:override  flag:UNPROTECTED
+[02:05:30] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:05:30] job:student src:241.12  target:RAID-A  action:check        auth:ok
+[02:05:31] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:05:32] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:05:32] job:student src:239.77  target:RAID-A  action:read_direct  auth:override
+[02:05:36] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:05:38] job:student src:241.12  target:RAID-C  action:check        auth:ok
+[02:05:41] job:student src:241.12  target:RAID-B  action:check        auth:ok
+[02:05:41] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok
+[02:05:41] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:05:43] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:05:45] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:05:45] job:student src:239.77  target:RAID-A  action:read_direct  auth:override
+[02:05:49] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:05:49] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:override  flag:UNPROTECTED
+[02:05:49] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:override  flag:UNPROTECTED
+[02:05:50] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:05:51] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:05:51] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok  flag:DELAYED_WRITE
+[02:05:52] job:student src:240.68  target:RAID-A  action:sync         auth:fail  flag:CHECKSUM_WARN
+[02:05:54] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:05:54] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:05:54] job:student src:239.77  target:RAID-A  action:read_direct  auth:override
+[02:05:56] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:05:56] job:student src:240.68  target:RAID-A  action:read_direct  auth:override
+[02:05:57] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[02:05:58] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:05:58] job:student src:241.12  target:RAID-A  action:read_direct  auth:override
+[02:05:59] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:05:59] job:student src:239.77  target:RAID-A  action:sync         auth:fail  flag:CHECKSUM_WARN
+[02:06:00] job:system  src:10.0.2  target:RAID-C  action:sync         auth:override
+[02:06:02] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:06:08] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:06:08] job:student src:239.77  target:RAID-C  action:sync         auth:ok  flag:UNPROTECTED
+[02:06:09] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:06:09] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:06:10] job:student src:241.12  target:RAID-B  action:write        auth:ok
+[02:06:12] job:student src:241.12  target:RAID-A  action:read         auth:fail
+[02:06:12] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:06:13] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:06:17] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:06:19] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:06:20] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[02:06:20] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:06:23] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:06:26] job:student src:241.12  target:RAID-A  action:read         auth:override
+[02:06:29] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:06:29] job:student src:239.77  target:RAID-C  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:06:33] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:06:34] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:06:34] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:06:41] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:06:42] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:06:43] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:06:45] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:06:45] job:student src:239.77  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:06:47] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:06:53] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:06:55] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:06:59] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:07:01] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:07:03] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:07:03] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:07:04] job:student src:241.12  target:RAID-C  action:read_direct  auth:ok
+[02:07:04] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:07:05] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:07:07] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:07:07] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:07:08] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:07:13] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:07:14] job:student src:239.77  target:RAID-A  action:read_direct  auth:ok
+[02:07:15] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok  flag:UNPROTECTED
+[02:07:16] job:student src:240.68  target:RAID-C  action:sync         auth:ok
+[02:07:17] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:07:23] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:07:24] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:07:26] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:07:26] job:student src:241.12  target:RAID-C  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:07:28] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:07:30] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:07:33] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:07:34] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:07:36] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:07:37] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:07:38] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:07:38] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:07:38] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:07:40] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:07:42] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:07:43] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:07:45] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:07:46] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:07:47] job:system  src:10.0.1  target:RAID-A  action:read         auth:override
+[02:07:49] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[02:07:50] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:07:51] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:07:53] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:08:01] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:08:02] job:student src:241.12  target:RAID-C  action:check        auth:ok
+[02:08:04] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:08:04] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:08:08] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:08:09] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[02:08:10] job:student src:241.12  target:RAID-B  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:08:11] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:08:12] job:system  src:10.0.2  target:RAID-C  action:sync         auth:fail
+[02:08:18] job:system  src:10.0.1  target:RAID-C  action:sync         auth:ok
+[02:08:20] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:08:20] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:08:22] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:08:22] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:08:25] job:system  src:10.0.2  target:RAID-C  action:read_direct  auth:ok
+[02:08:25] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:08:27] job:student src:239.77  target:RAID-B  action:read_direct  auth:ok
+[02:08:28] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok
+[02:08:32] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:08:33] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:08:33] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:08:34] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:08:41] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:08:42] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:08:43] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:08:43] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:08:45] job:student src:239.77  target:RAID-C  action:check        auth:fail
+[02:08:45] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:08:48] job:student src:240.68  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:08:49] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:08:49] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:08:54] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:08:54] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:08:56] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:09:00] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:09:00] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:09:00] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:09:02] job:student src:241.12  target:RAID-B  action:sync         auth:ok
+[02:09:05] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:09:06] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:09:07] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:09:09] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:09:13] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:09:13] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:09:17] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[02:09:17] job:backup  src:192.10  target:RAID-C  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:09:21] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:09:25] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:09:31] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:09:32] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:09:32] job:student src:241.12  target:RAID-C  action:read         auth:override
+[02:09:32] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:09:32] job:student src:240.68  target:RAID-C  action:sync         auth:ok
+[02:09:33] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:09:34] job:student src:240.68  target:RAID-C  action:check        auth:ok
+[02:09:36] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[02:09:36] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:09:36] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:09:37] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:09:37] job:student src:240.68  target:RAID-A  action:check        auth:ok
+[02:09:39] job:student src:240.68  target:RAID-B  action:write        auth:ok
+[02:09:42] job:system  src:10.0.2  target:RAID-C  action:read_direct  auth:ok
+[02:09:42] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:09:49] job:student src:240.68  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:09:51] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:09:51] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:09:52] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[02:09:54] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:09:55] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:09:58] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:09:59] job:student src:239.77  target:RAID-B  action:sync         auth:ok
+[02:10:00] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:10:01] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:10:04] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:10:08] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:10:09] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:10:09] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:10:12] job:student src:239.77  target:RAID-A  action:read_direct  auth:ok
+[02:10:13] job:student src:239.77  target:RAID-A  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:10:13] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:10:13] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:10:15] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:10:17] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok
+[02:10:19] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:10:24] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:10:26] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:UNPROTECTED
+[02:10:26] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:10:29] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:10:31] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:10:31] job:backup  src:192.10  target:RAID-A  action:read         auth:override
+[02:10:32] job:student src:241.12  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:10:33] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:10:35] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:10:35] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:10:42] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:10:43] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:10:44] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:10:46] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:10:47] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok
+[02:10:47] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:10:48] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:10:48] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:10:50] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:10:51] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:10:54] job:backup  src:192.10  target:RAID-B  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:10:57] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:10:58] job:student src:240.68  target:RAID-C  action:sync         auth:ok
+[02:10:59] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:10:59] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:11:01] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:11:03] job:student src:239.77  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:11:05] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:fail
+[02:11:05] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:11:05] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:11:06] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:11:06] job:student src:241.12  target:RAID-B  action:read         auth:override
+[02:11:07] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:11:08] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:11:11] job:student src:241.12  target:RAID-A  action:check        auth:ok
+[02:11:12] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok  flag:UNPROTECTED
+[02:11:13] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:11:14] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:11:16] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:11:17] job:student src:240.68  target:RAID-B  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[02:11:20] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:11:21] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:11:22] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:11:24] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:11:27] job:backup  src:192.10  target:RAID-C  action:check        auth:ok  flag:DELAYED_WRITE
+[02:11:28] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:11:30] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:11:30] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:11:40] job:student src:241.12  target:RAID-B  action:read         auth:fail
+[02:11:41] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok
+[02:11:42] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:11:43] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:11:47] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:11:47] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:11:48] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:11:49] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:11:52] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:11:56] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:11:57] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:11:58] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:11:59] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:12:02] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:12:03] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:12:03] job:system  src:10.0.1  target:RAID-C  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[02:12:03] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[02:12:03] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:12:03] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:12:03] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:12:04] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:12:04] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:12:05] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:12:05] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:12:07] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:12:09] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:12:10] job:backup  src:192.10  target:RAID-A  action:write        auth:override
+[02:12:11] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:12:14] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:ok
+[02:12:19] job:backup  src:192.10  target:RAID-A  action:read         auth:fail
+[02:12:20] job:student src:240.68  target:RAID-C  action:sync         auth:ok
+[02:12:21] job:backup  src:192.10  target:RAID-A  action:read         auth:override
+[02:12:22] job:system  src:10.0.1  target:RAID-C  action:read         auth:fail
+[02:12:25] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:12:27] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:12:29] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:12:31] job:system  src:10.0.2  target:RAID-C  action:read         auth:override
+[02:12:33] job:student src:240.68  target:RAID-B  action:check        auth:ok
+[02:12:34] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:12:35] job:student src:239.77  target:RAID-B  action:sync         auth:ok
+[02:12:36] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:12:36] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:12:38] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:12:39] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:12:39] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:12:40] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:12:43] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:12:44] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:12:44] job:student src:240.68  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:12:44] job:student src:240.68  target:RAID-B  action:read         auth:override
+[02:12:48] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:12:56] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:12:56] job:backup  src:192.10  target:RAID-B  action:read         auth:fail
+[02:12:58] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:12:58] job:system  src:10.0.1  target:RAID-C  action:check        auth:override
+[02:12:59] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:13:00] job:student src:239.77  target:RAID-C  action:read         auth:fail
+[02:13:01] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:13:03] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:13:03] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:13:04] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:13:07] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:13:10] job:student src:239.77  target:RAID-A  action:write        auth:ok
+[02:13:11] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok  flag:DELAYED_WRITE
+[02:13:11] job:system  src:10.0.2  target:RAID-C  action:read_direct  auth:ok
+[02:13:13] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:13:13] job:student src:239.77  target:RAID-B  action:write        auth:ok  flag:UNPROTECTED
+[02:13:14] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:13:16] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:13:18] job:system  src:10.0.2  target:RAID-A  action:check        auth:override
+[02:13:18] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:13:20] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:13:21] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:13:28] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:13:30] job:student src:240.68  target:RAID-A  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[02:13:31] job:backup  src:192.10  target:RAID-B  action:read         auth:override
+[02:13:32] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[02:13:34] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:13:36] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:13:39] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:13:40] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[02:13:44] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:13:44] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:13:44] job:student src:240.68  target:RAID-B  action:read         auth:fail
+[02:13:46] job:system  src:10.0.1  target:RAID-C  action:check        auth:ok
+[02:13:50] job:student src:241.12  target:RAID-A  action:sync         auth:override
+[02:13:53] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:13:56] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:13:57] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:13:57] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:13:58] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:14:00] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:14:02] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:14:02] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:14:03] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:14:06] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:14:07] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:14:08] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:14:10] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:14:14] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:14:15] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:14:16] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:14:17] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:UNPROTECTED
+[02:14:17] job:student src:241.12  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:14:18] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:ok
+[02:14:19] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:14:19] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok
+[02:14:19] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:14:20] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:14:21] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:14:22] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[02:14:24] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:14:26] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:14:29] job:student src:241.12  target:RAID-C  action:sync         auth:fail
+[02:14:30] job:student src:240.68  target:RAID-A  action:write        auth:ok  flag:DELAYED_WRITE
+[02:14:30] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:14:33] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok
+[02:14:34] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:14:34] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:14:35] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:14:37] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:14:38] job:backup  src:192.10  target:RAID-B  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:14:38] job:backup  src:192.10  target:RAID-B  action:read         auth:override
+[02:14:41] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:14:44] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:14:45] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:14:47] job:student src:239.77  target:RAID-B  action:sync         auth:override
+[02:14:47] job:student src:241.12  target:RAID-A  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:14:48] job:backup  src:192.10  target:RAID-B  action:read         auth:fail
+[02:14:48] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:14:51] job:student src:239.77  target:RAID-C  action:read         auth:override
+[02:14:54] job:system  src:10.0.1  target:RAID-C  action:sync         auth:ok
+[02:14:54] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:14:56] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:14:59] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:14:59] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:15:01] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:15:07] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:15:08] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:15:10] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:15:11] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:15:13] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:15:16] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:15:21] job:student src:241.12  target:RAID-C  action:check        auth:ok
+[02:15:21] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:15:22] job:student src:240.68  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:15:25] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:15:27] job:system  src:10.0.1  target:RAID-B  action:check        auth:ok
+[02:15:29] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:15:30] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:15:30] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok
+[02:15:31] job:student src:239.77  target:RAID-C  action:check        auth:ok
+[02:15:31] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:15:35] job:student src:241.12  target:RAID-C  action:write        auth:override
+[02:15:38] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:15:38] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:15:39] job:backup  src:192.10  target:RAID-C  action:write        auth:override
+[02:15:43] job:backup  src:192.10  target:RAID-C  action:check        auth:fail
+[02:15:46] job:student src:240.68  target:RAID-B  action:check        auth:ok
+[02:15:47] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:15:48] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:15:48] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:15:56] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:15:56] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:15:57] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:15:59] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:15:59] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:16:00] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:16:06] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:16:09] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:16:09] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:16:10] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:16:11] job:student src:239.77  target:RAID-A  action:check        auth:override
+[02:16:11] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:16:11] job:student src:241.12  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:16:14] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[02:16:14] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:16:15] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:16:17] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:16:22] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:16:23] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:16:23] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:16:25] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:16:28] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:16:30] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:16:30] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:16:38] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:16:42] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:16:43] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:16:44] job:system  src:10.0.1  target:RAID-A  action:sync         auth:fail
+[02:16:45] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:16:47] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:16:48] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:16:49] job:student src:239.77  target:RAID-B  action:read_direct  auth:ok
+[02:16:49] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:16:51] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:16:52] job:backup  src:192.10  target:RAID-B  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:16:56] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:16:57] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:16:57] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:16:57] job:student src:241.12  target:RAID-B  action:read         auth:ok  flag:UNPROTECTED
+[02:17:00] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:17:03] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:17:07] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:17:10] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:17:12] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:17:14] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:17:15] job:system  src:10.0.1  target:RAID-A  action:read         auth:fail
+[02:17:15] job:student src:240.68  target:RAID-C  action:sync         auth:ok
+[02:17:15] job:backup  src:192.10  target:RAID-A  action:read         auth:fail
+[02:17:18] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:17:18] job:student src:239.77  target:RAID-A  action:write        auth:ok
+[02:17:19] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:17:20] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:17:22] job:system  src:10.0.2  target:RAID-B  action:read         auth:override  flag:CHECKSUM_WARN
+[02:17:22] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:17:25] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:17:27] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:17:27] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:17:27] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:17:29] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:17:29] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok
+[02:17:29] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:17:31] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:17:35] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:17:44] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:17:47] job:system  src:10.0.1  target:RAID-C  action:check        auth:ok
+[02:17:48] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:17:48] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:17:51] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:17:54] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:17:57] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:17:59] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:18:00] job:backup  src:192.10  target:RAID-C  action:write        auth:override
+[02:18:01] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:18:04] job:system  src:10.0.1  target:RAID-C  action:read_direct  auth:ok
+[02:18:06] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:18:07] job:system  src:10.0.1  target:RAID-A  action:read         auth:fail
+[02:18:09] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:18:12] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:18:12] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:18:15] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:18:16] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[02:18:17] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:18:23] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok  flag:UNPROTECTED
+[02:18:24] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:18:26] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:18:26] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:18:27] job:student src:239.77  target:RAID-A  action:write        auth:ok
+[02:18:28] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:18:29] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:18:31] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[02:18:34] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:18:35] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:18:35] job:student src:241.12  target:RAID-B  action:read_direct  auth:ok
+[02:18:35] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:18:37] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:18:45] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:18:45] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:18:47] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:18:47] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:18:48] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:18:52] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:18:55] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:18:55] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:18:56] job:student src:240.68  target:RAID-B  action:read         auth:fail
+[02:18:56] job:student src:241.12  target:RAID-B  action:sync         auth:ok
+[02:19:02] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:19:07] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[02:19:08] job:student src:241.12  target:RAID-B  action:write        auth:ok
+[02:19:16] job:student src:241.12  target:RAID-B  action:sync         auth:ok
+[02:19:17] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:19:18] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[02:19:18] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:19:19] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:19:23] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:19:24] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:19:25] job:student src:241.12  target:RAID-B  action:sync         auth:ok  flag:UNPROTECTED
+[02:19:26] job:student src:240.68  target:RAID-A  action:write        auth:override
+[02:19:26] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:19:28] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:19:28] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:19:33] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:19:39] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:19:39] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:19:40] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:19:45] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:19:47] job:student src:239.77  target:RAID-C  action:write        auth:ok
+[02:19:48] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:19:51] job:student src:240.68  target:RAID-B  action:write        auth:ok
+[02:19:52] job:system  src:10.0.2  target:RAID-B  action:read_direct  auth:ok
+[02:19:53] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:19:54] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[02:19:55] job:student src:240.68  target:RAID-B  action:sync         auth:ok
+[02:19:55] job:student src:239.77  target:RAID-A  action:write        auth:override
+[02:19:56] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[02:19:56] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:19:59] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:19:59] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:20:01] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:20:02] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:20:05] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:20:11] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:20:12] job:backup  src:192.10  target:RAID-A  action:read         auth:fail
+[02:20:12] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:20:20] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:20:22] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:20:22] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:20:24] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok
+[02:20:24] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:20:28] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:20:30] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:20:30] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:20:32] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:20:33] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:20:35] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok
+[02:20:36] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:20:37] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:20:40] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:20:44] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:20:52] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:20:55] job:backup  src:192.10  target:RAID-C  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:20:57] job:student src:241.12  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:20:57] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:20:58] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:21:02] job:system  src:10.0.2  target:RAID-B  action:read_direct  auth:ok
+[02:21:02] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:21:05] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:21:05] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[02:21:08] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:21:10] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:21:10] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:21:10] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:21:12] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:21:15] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:21:18] job:backup  src:192.10  target:RAID-B  action:read         auth:fail  flag:CHECKSUM_WARN
+[02:21:20] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:21:20] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:21:20] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:21:21] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:21:24] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:21:29] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:21:31] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:21:33] job:system  src:10.0.1  target:RAID-B  action:read_direct  auth:ok
+[02:21:33] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:21:34] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:21:35] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:21:41] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:21:41] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:21:48] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:21:49] job:system  src:10.0.2  target:RAID-A  action:sync         auth:fail
+[02:21:49] job:student src:240.68  target:RAID-A  action:sync         auth:ok
+[02:21:49] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:21:51] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:21:52] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:21:52] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:21:54] job:student src:240.68  target:RAID-A  action:check        auth:fail
+[02:21:56] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:21:56] job:student src:240.68  target:RAID-B  action:sync         auth:override  flag:UNPROTECTED
+[02:22:00] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:22:02] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:22:03] job:student src:240.68  target:RAID-C  action:sync         auth:ok
+[02:22:07] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:22:08] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:22:09] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:22:09] job:student src:239.77  target:RAID-C  action:read         auth:override
+[02:22:14] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:22:14] job:student src:241.12  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:22:16] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:22:17] job:system  src:10.0.1  target:RAID-B  action:sync         auth:fail
+[02:22:17] job:backup  src:192.10  target:RAID-B  action:read         auth:fail
+[02:22:18] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:22:18] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:UNPROTECTED
+[02:22:26] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:22:27] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:22:27] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:22:28] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:22:28] job:student src:239.77  target:RAID-C  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:22:29] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:22:37] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:22:38] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:22:43] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:22:48] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:22:50] job:backup  src:192.10  target:RAID-B  action:write        auth:fail
+[02:22:51] job:system  src:10.0.2  target:RAID-B  action:check        auth:ok
+[02:22:51] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:22:51] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:22:53] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:22:54] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:22:55] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:22:56] job:student src:239.77  target:RAID-B  action:check        auth:fail
+[02:22:57] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:22:58] job:system  src:10.0.2  target:RAID-B  action:check        auth:override
+[02:22:58] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:22:59] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:23:01] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:23:03] job:backup  src:192.10  target:RAID-C  action:write        auth:fail
+[02:23:04] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:23:04] job:student src:240.68  target:RAID-B  action:write        auth:ok
+[02:23:08] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:23:09] job:student src:240.68  target:RAID-B  action:sync         auth:ok
+[02:23:09] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:23:09] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:23:10] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:23:11] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:23:11] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:23:15] job:student src:239.77  target:RAID-A  action:write        auth:ok
+[02:23:16] job:backup  src:192.10  target:RAID-C  action:read         auth:fail  flag:UNPROTECTED
+[02:23:17] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:23:22] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:23:22] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[02:23:23] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:23:24] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:23:25] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:23:29] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:23:30] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:23:31] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:23:40] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:23:42] job:backup  src:192.10  target:RAID-C  action:read         auth:override
+[02:23:42] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:23:44] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:23:50] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:23:51] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:23:56] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[02:23:57] job:student src:240.68  target:RAID-C  action:sync         auth:ok
+[02:24:00] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:24:01] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:24:03] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:24:04] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:24:05] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:24:06] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:24:08] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:24:10] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:24:12] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:24:16] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:24:18] job:backup  src:192.10  target:RAID-B  action:read         auth:fail  flag:CHECKSUM_WARN
+[02:24:23] job:student src:240.68  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:24:26] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:24:27] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:24:29] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:24:33] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:24:33] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:24:34] job:system  src:10.0.1  target:RAID-B  action:read         auth:fail
+[02:24:34] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:24:43] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:24:43] job:student src:240.68  target:RAID-A  action:check        auth:ok
+[02:24:43] job:system  src:10.0.1  target:RAID-B  action:read_direct  auth:ok
+[02:24:44] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:24:44] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:24:45] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[02:24:48] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:24:49] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:24:56] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:24:57] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:24:59] job:student src:241.12  target:RAID-B  action:read         auth:ok  flag:UNPROTECTED
+[02:24:59] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:24:59] job:student src:239.77  target:RAID-B  action:write        auth:ok  flag:DELAYED_WRITE
+[02:25:01] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:25:05] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:25:06] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:25:08] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:25:13] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:25:14] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:25:16] job:student src:239.77  target:RAID-C  action:check        auth:ok
+[02:25:16] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[02:25:18] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:25:19] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:25:19] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:25:21] job:student src:239.77  target:RAID-A  action:write        auth:ok
+[02:25:21] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:25:21] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:25:23] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:25:27] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:25:28] job:system  src:10.0.2  target:RAID-B  action:sync         auth:ok
+[02:25:29] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:25:33] job:student src:241.12  target:RAID-C  action:check        auth:ok
+[02:25:34] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:25:34] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:ok
+[02:25:36] job:system  src:10.0.1  target:RAID-B  action:write        auth:override  flag:DELAYED_WRITE
+[02:25:37] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:25:39] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:25:40] job:student src:240.68  target:RAID-B  action:read         auth:override  flag:UNPROTECTED
+[02:25:42] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:25:43] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:25:44] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:25:44] job:student src:239.77  target:RAID-C  action:write        auth:ok
+[02:25:45] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:25:50] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:25:50] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:25:52] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:25:53] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:25:53] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:25:54] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:25:54] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:25:55] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:25:56] job:system  src:10.0.2  target:RAID-B  action:read_direct  auth:ok
+[02:25:56] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:25:58] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:25:59] job:student src:239.77  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:26:00] job:student src:239.77  target:RAID-A  action:read         auth:fail
+[02:26:00] job:student src:240.68  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:26:03] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:26:04] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:26:04] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[02:26:04] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:26:05] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:26:05] job:student src:241.12  target:RAID-C  action:read_direct  auth:ok
+[02:26:07] job:student src:240.68  target:RAID-A  action:read         auth:override  flag:DELAYED_WRITE
+[02:26:08] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:26:09] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:26:14] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:26:17] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:26:19] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:26:21] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:26:22] job:system  src:10.0.2  target:RAID-C  action:read_direct  auth:ok
+[02:26:25] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:26:27] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:26:29] job:student src:241.12  target:RAID-B  action:write        auth:ok
+[02:26:29] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[02:26:33] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:26:33] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[02:26:36] job:system  src:10.0.1  target:RAID-A  action:write        auth:fail
+[02:26:41] job:student src:240.68  target:RAID-A  action:check        auth:ok
+[02:26:43] job:system  src:10.0.1  target:RAID-B  action:check        auth:ok
+[02:26:46] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:26:48] job:system  src:10.0.1  target:RAID-B  action:sync         auth:fail
+[02:26:54] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:26:54] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:26:57] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:26:57] job:system  src:10.0.1  target:RAID-B  action:check        auth:ok
+[02:26:58] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:26:58] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:27:01] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:27:02] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:27:02] job:system  src:10.0.2  target:RAID-A  action:check        auth:fail
+[02:27:05] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:27:06] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:27:09] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:27:13] job:student src:241.12  target:RAID-C  action:read_direct  auth:ok
+[02:27:13] job:student src:240.68  target:RAID-A  action:check        auth:ok
+[02:27:14] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:27:15] job:student src:241.12  target:RAID-A  action:check        auth:ok
+[02:27:17] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:27:18] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:27:18] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:27:18] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:27:19] job:backup  src:192.10  target:RAID-C  action:check        auth:fail
+[02:27:19] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:27:20] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:27:22] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[02:27:22] job:backup  src:192.10  target:RAID-A  action:write        auth:override
+[02:27:22] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:27:23] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:UNPROTECTED
+[02:27:23] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:27:25] job:backup  src:192.10  target:RAID-A  action:read         auth:fail
+[02:27:25] job:student src:241.12  target:RAID-B  action:check        auth:ok
+[02:27:30] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:27:32] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:27:35] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:27:35] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:27:37] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:27:43] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:27:43] job:system  src:10.0.2  target:RAID-B  action:check        auth:ok
+[02:27:43] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:27:44] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:27:47] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:27:49] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:27:49] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:27:53] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:27:54] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:UNPROTECTED
+[02:27:55] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:27:58] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:27:59] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:27:59] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:27:59] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:28:01] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:28:05] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:28:08] job:system  src:10.0.1  target:RAID-C  action:read         auth:fail  flag:DELAYED_WRITE
+[02:28:09] job:student src:239.77  target:RAID-B  action:read         auth:fail
+[02:28:14] job:student src:240.68  target:RAID-C  action:check        auth:ok
+[02:28:15] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:28:17] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:28:17] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:28:19] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:28:21] job:student src:240.68  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:28:23] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:28:29] job:student src:239.77  target:RAID-C  action:sync         auth:fail
+[02:28:32] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:28:33] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:28:34] job:student src:241.12  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:28:35] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:28:35] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:28:36] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:28:37] job:student src:239.77  target:RAID-A  action:write        auth:ok  flag:DELAYED_WRITE
+[02:28:40] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:28:40] job:student src:239.77  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:28:41] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:28:42] job:system  src:10.0.2  target:RAID-B  action:sync         auth:ok
+[02:28:45] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:28:48] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:28:48] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:28:50] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:28:51] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:28:53] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:28:54] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:28:57] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:28:59] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:29:03] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:29:06] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:29:13] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok  flag:UNPROTECTED
+[02:29:14] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:29:21] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:29:22] job:system  src:10.0.2  target:RAID-A  action:write        auth:fail
+[02:29:28] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:29:29] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:29:30] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:29:30] job:student src:239.77  target:RAID-A  action:read_direct  auth:ok
+[02:29:32] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:29:37] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:29:38] job:system  src:10.0.1  target:RAID-B  action:read         auth:fail
+[02:29:38] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:29:38] job:student src:240.68  target:RAID-C  action:read         auth:fail
+[02:29:39] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:29:40] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:29:41] job:student src:239.77  target:RAID-C  action:check        auth:ok
+[02:29:42] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:29:43] job:system  src:10.0.1  target:RAID-C  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:29:44] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:29:46] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:29:52] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:29:54] job:backup  src:192.10  target:RAID-B  action:read         auth:fail  flag:UNPROTECTED
+[02:29:54] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:29:55] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[02:29:57] job:backup  src:192.10  target:RAID-C  action:read_direct  auth:ok
+[02:30:02] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:30:04] job:backup  src:192.10  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:30:06] job:system  src:10.0.1  target:RAID-A  action:check        auth:ok
+[02:30:08] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:30:08] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:30:14] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:30:14] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:30:15] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:30:19] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:30:19] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok
+[02:30:20] job:system  src:10.0.1  target:RAID-C  action:sync         auth:ok
+[02:30:20] job:system  src:10.0.1  target:RAID-B  action:read_direct  auth:ok
+[02:30:23] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:30:23] job:student src:241.12  target:RAID-B  action:read         auth:fail
+[02:30:28] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:30:30] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:30:32] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:30:33] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:30:37] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:30:41] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[02:30:42] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:30:43] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok
+[02:30:46] job:student src:240.68  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:30:47] job:system  src:10.0.1  target:RAID-C  action:sync         auth:ok
+[02:30:48] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:30:51] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:30:57] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:30:58] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:30:58] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:30:59] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:UNPROTECTED
+[02:31:02] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:31:05] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:31:10] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:31:11] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:31:12] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:31:13] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:31:17] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:UNPROTECTED
+[02:31:18] job:student src:241.12  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:31:21] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:31:21] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:31:22] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:31:23] job:student src:239.77  target:RAID-B  action:read_direct  auth:ok
+[02:31:23] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok
+[02:31:23] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:31:24] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:31:27] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:31:28] job:student src:240.68  target:RAID-B  action:read         auth:fail
+[02:31:32] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok  flag:DELAYED_WRITE
+[02:31:32] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:31:33] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[02:31:33] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:31:34] job:backup  src:192.10  target:RAID-C  action:read_direct  auth:ok
+[02:31:36] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:31:39] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:31:40] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[02:31:40] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:31:44] job:system  src:10.0.2  target:RAID-B  action:sync         auth:ok
+[02:31:45] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:31:45] job:system  src:10.0.1  target:RAID-B  action:read_direct  auth:ok
+[02:31:50] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:31:50] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:31:53] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:31:56] job:student src:241.12  target:RAID-B  action:read_direct  auth:ok
+[02:31:59] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:32:00] job:backup  src:192.10  target:RAID-A  action:read         auth:override
+[02:32:02] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:32:03] job:backup  src:192.10  target:RAID-A  action:check        auth:override
+[02:32:04] job:backup  src:192.10  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:32:06] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:32:09] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:32:10] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:32:10] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:UNPROTECTED
+[02:32:13] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:32:13] job:student src:239.77  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:32:13] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:ok
+[02:32:14] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:32:19] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:32:19] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:32:20] job:student src:239.77  target:RAID-B  action:sync         auth:ok
+[02:32:20] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:32:21] job:system  src:10.0.1  target:RAID-C  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:32:22] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:32:30] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:32:30] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:32:34] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:32:36] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:32:37] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:32:38] job:student src:240.68  target:RAID-C  action:check        auth:ok
+[02:32:38] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:32:40] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:32:43] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:32:47] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:32:47] job:student src:239.77  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:32:48] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:32:51] job:student src:239.77  target:RAID-A  action:write        auth:ok  flag:UNPROTECTED
+[02:32:52] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:32:54] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:32:57] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:32:59] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:33:01] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:33:02] job:backup  src:192.10  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:33:06] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:33:06] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:33:07] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:33:14] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:33:17] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:33:19] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:33:22] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:33:25] job:student src:239.77  target:RAID-B  action:sync         auth:ok
+[02:33:26] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:33:27] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:33:27] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:33:31] job:system  src:10.0.2  target:RAID-A  action:check        auth:fail  flag:DELAYED_WRITE
+[02:33:32] job:backup  src:192.10  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:33:32] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:33:34] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[02:33:35] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:33:37] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:33:38] job:student src:240.68  target:RAID-B  action:read         auth:override
+[02:33:39] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:33:39] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:33:42] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:33:43] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:33:43] job:student src:239.77  target:RAID-B  action:read_direct  auth:ok  flag:DELAYED_WRITE
+[02:33:44] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:33:47] job:system  src:10.0.2  target:RAID-A  action:sync         auth:fail  flag:CHECKSUM_WARN
+[02:33:50] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:33:51] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:33:51] job:student src:241.12  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:33:53] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:33:54] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:33:55] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:33:59] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:34:04] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:34:05] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:34:07] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:34:07] job:backup  src:192.10  target:RAID-B  action:read         auth:fail  flag:UNPROTECTED
+[02:34:08] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:34:15] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:34:17] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:34:21] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:override
+[02:34:21] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:34:22] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:34:24] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:34:26] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:34:28] job:student src:239.77  target:RAID-C  action:write        auth:ok
+[02:34:32] job:system  src:10.0.2  target:RAID-B  action:read_direct  auth:ok
+[02:34:33] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:34:34] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:34:36] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:34:40] job:backup  src:192.10  target:RAID-C  action:read         auth:fail
+[02:34:41] job:backup  src:192.10  target:RAID-C  action:read_direct  auth:ok
+[02:34:44] job:system  src:10.0.1  target:RAID-C  action:read_direct  auth:ok
+[02:34:46] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:34:48] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:34:49] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:34:57] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:34:59] job:backup  src:192.10  target:RAID-B  action:read         auth:fail  flag:CHECKSUM_WARN
+[02:34:59] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:35:02] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[02:35:04] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:35:04] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:35:04] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:35:06] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:35:07] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:35:12] job:student src:241.12  target:RAID-C  action:read         auth:override
+[02:35:12] job:system  src:10.0.1  target:RAID-C  action:check        auth:ok
+[02:35:13] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:35:18] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:35:19] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:35:20] job:system  src:10.0.1  target:RAID-B  action:check        auth:ok
+[02:35:20] job:student src:240.68  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:35:23] job:student src:239.77  target:RAID-C  action:read_direct  auth:ok
+[02:35:23] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:35:26] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:35:26] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:35:27] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[02:35:30] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok
+[02:35:31] job:backup  src:192.10  target:RAID-C  action:read         auth:fail  flag:DELAYED_WRITE
+[02:35:31] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:35:32] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:35:39] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:35:40] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:35:40] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:35:49] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok
+[02:35:50] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[02:35:51] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:35:51] job:student src:240.68  target:RAID-B  action:check        auth:ok
+[02:35:53] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:35:57] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:36:00] job:student src:240.68  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:36:03] job:system  src:10.0.2  target:RAID-C  action:read_direct  auth:ok
+[02:36:05] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:36:08] job:system  src:10.0.1  target:RAID-A  action:read         auth:fail
+[02:36:09] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:36:09] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[02:36:15] job:backup  src:192.10  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:36:18] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:36:18] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:36:22] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:36:22] job:student src:241.12  target:RAID-B  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:36:22] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:36:22] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:36:27] job:student src:240.68  target:RAID-A  action:read_direct  auth:ok
+[02:36:28] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[02:36:29] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:36:29] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok
+[02:36:30] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:36:30] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:36:30] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:36:35] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:36:36] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok  flag:UNPROTECTED
+[02:36:36] job:system  src:10.0.1  target:RAID-C  action:sync         auth:ok
+[02:36:41] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:36:44] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:36:48] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:36:51] job:system  src:10.0.1  target:RAID-B  action:read         auth:fail
+[02:36:53] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:36:54] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:36:56] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:37:01] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:37:05] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:37:07] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok
+[02:37:08] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:37:10] job:student src:239.77  target:RAID-A  action:read_direct  auth:ok
+[02:37:11] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:37:17] job:system  src:10.0.2  target:RAID-A  action:sync         auth:fail
+[02:37:22] job:backup  src:192.10  target:RAID-A  action:check        auth:override
+[02:37:25] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:37:25] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:37:27] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:37:29] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:37:34] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:37:36] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok  flag:DELAYED_WRITE
+[02:37:40] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:37:40] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:37:46] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:37:50] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:37:50] job:student src:240.68  target:RAID-A  action:sync         auth:ok
+[02:37:52] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:37:52] job:system  src:10.0.1  target:RAID-A  action:read         auth:override  flag:DELAYED_WRITE
+[02:37:54] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:37:55] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:37:55] job:student src:241.12  target:RAID-C  action:check        auth:override
+[02:37:56] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:38:02] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:38:02] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:38:04] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:38:06] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:38:09] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:38:09] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:38:11] job:student src:241.12  target:RAID-A  action:write        auth:ok  flag:DELAYED_WRITE
+[02:38:12] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:38:12] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:38:15] job:student src:240.68  target:RAID-B  action:check        auth:ok
+[02:38:16] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:38:20] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:38:21] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:38:24] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:38:26] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:38:27] job:student src:240.68  target:RAID-B  action:write        auth:ok
+[02:38:27] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:38:28] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:38:30] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:38:35] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:38:37] job:student src:241.12  target:RAID-B  action:write        auth:ok
+[02:38:39] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:38:39] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:38:42] job:system  src:10.0.1  target:RAID-C  action:check        auth:ok
+[02:38:45] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:38:49] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:38:49] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:38:50] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:38:51] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:38:52] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:38:53] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:38:55] job:system  src:10.0.1  target:RAID-C  action:read         auth:fail
+[02:38:57] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:38:58] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:38:59] job:student src:240.68  target:RAID-C  action:check        auth:ok
+[02:39:00] job:student src:240.68  target:RAID-B  action:read_direct  auth:override  flag:UNPROTECTED
+[02:39:01] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:39:01] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:39:08] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:39:08] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:39:08] job:backup  src:192.10  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:39:09] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:39:19] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[02:39:19] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok  flag:CHECKSUM_WARN
+[02:39:21] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:39:22] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:39:22] job:student src:240.68  target:RAID-C  action:check        auth:ok
+[02:39:22] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:39:29] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:39:31] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:39:32] job:system  src:10.0.2  target:RAID-B  action:check        auth:ok  flag:DELAYED_WRITE
+[02:39:36] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:39:36] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:39:37] job:student src:241.12  target:RAID-C  action:write        auth:ok
+[02:39:40] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:39:41] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok
+[02:39:42] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:39:43] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:39:44] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:39:49] job:system  src:10.0.1  target:RAID-A  action:write        auth:override
+[02:39:57] job:system  src:10.0.2  target:RAID-C  action:read         auth:fail
+[02:39:58] job:student src:240.68  target:RAID-A  action:write        auth:ok
+[02:40:00] job:student src:241.12  target:RAID-B  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:40:01] job:backup  src:192.10  target:RAID-B  action:read         auth:fail
+[02:40:07] job:system  src:10.0.1  target:RAID-B  action:check        auth:ok
+[02:40:08] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:40:11] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:40:11] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:40:23] job:student src:239.77  target:RAID-B  action:check        auth:ok
+[02:40:24] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:40:25] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:40:25] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:40:26] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:40:28] job:backup  src:192.10  target:RAID-A  action:write        auth:fail
+[02:40:30] job:student src:240.68  target:RAID-A  action:read         auth:fail
+[02:40:31] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:40:33] job:student src:239.77  target:RAID-C  action:check        auth:override
+[02:40:33] job:student src:241.12  target:RAID-B  action:read         auth:fail
+[02:40:34] job:system  src:10.0.1  target:RAID-C  action:read_direct  auth:fail
+[02:40:35] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:40:35] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:40:36] job:system  src:10.0.2  target:RAID-B  action:sync         auth:ok
+[02:40:40] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:40:41] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:40:43] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:40:44] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:40:46] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:40:48] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:40:51] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:40:58] job:student src:241.12  target:RAID-B  action:check        auth:ok
+[02:40:58] job:student src:240.68  target:RAID-C  action:read         auth:fail
+[02:41:00] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:41:00] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[02:41:00] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:41:01] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:41:06] job:student src:239.77  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:41:07] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:41:09] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:41:11] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:41:15] job:backup  src:192.10  target:RAID-C  action:read_direct  auth:ok  flag:UNPROTECTED
+[02:41:16] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:41:18] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:41:20] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:41:21] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:41:21] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:41:22] job:student src:239.77  target:RAID-B  action:write        auth:override
+[02:41:22] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:41:24] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:41:28] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:41:28] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:41:30] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:41:31] job:student src:239.77  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:41:32] job:student src:239.77  target:RAID-C  action:sync         auth:ok
+[02:41:33] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:41:41] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:41:42] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:41:44] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:41:44] job:backup  src:192.10  target:RAID-A  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:41:47] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:41:47] job:system  src:10.0.2  target:RAID-B  action:check        auth:ok
+[02:41:49] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:41:49] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:41:54] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:41:55] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:41:58] job:system  src:10.0.2  target:RAID-C  action:write        auth:fail
+[02:41:58] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:42:14] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:42:14] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:42:15] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:42:17] job:student src:240.68  target:RAID-B  action:read         auth:fail
+[02:42:18] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:42:18] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:42:19] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[02:42:20] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[02:42:21] job:student src:240.68  target:RAID-C  action:read         auth:ok
+[02:42:25] job:student src:240.68  target:RAID-C  action:read         auth:ok  flag:UNPROTECTED
+[02:42:28] job:student src:239.77  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:42:30] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:42:30] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:42:33] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:42:35] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:42:37] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:42:37] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:42:42] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:42:43] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:42:46] job:student src:239.77  target:RAID-B  action:write        auth:override
+[02:42:46] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:UNPROTECTED
+[02:42:54] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:42:54] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok  flag:UNPROTECTED
+[02:42:56] job:backup  src:192.10  target:RAID-C  action:read         auth:override
+[02:42:57] job:student src:239.77  target:RAID-A  action:check        auth:ok
+[02:43:00] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok
+[02:43:00] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:43:03] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:43:06] job:backup  src:192.10  target:RAID-A  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:43:10] job:student src:240.68  target:RAID-A  action:sync         auth:ok
+[02:43:12] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:43:12] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:43:17] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok
+[02:43:19] job:student src:239.77  target:RAID-A  action:check        auth:ok  flag:DELAYED_WRITE
+[02:43:20] job:system  src:10.0.1  target:RAID-B  action:check        auth:override
+[02:43:22] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:43:25] job:student src:239.77  target:RAID-C  action:write        auth:ok
+[02:43:27] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:43:27] job:system  src:10.0.1  target:RAID-B  action:read_direct  auth:ok
+[02:43:31] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:43:32] job:system  src:10.0.1  target:RAID-B  action:check        auth:ok  flag:UNPROTECTED
+[02:43:32] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:43:34] job:student src:239.77  target:RAID-B  action:write        auth:override  flag:DELAYED_WRITE
+[02:43:35] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:43:38] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:43:40] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:43:40] job:system  src:10.0.1  target:RAID-B  action:check        auth:ok
+[02:43:44] job:student src:240.68  target:RAID-B  action:read         auth:ok
+[02:43:45] job:student src:240.68  target:RAID-B  action:check        auth:ok
+[02:43:45] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:43:45] job:student src:241.12  target:RAID-A  action:sync         auth:ok
+[02:43:45] job:backup  src:192.10  target:RAID-C  action:read         auth:override
+[02:43:46] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:43:48] job:student src:241.12  target:RAID-A  action:read         auth:fail
+[02:43:49] job:student src:241.12  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:43:51] job:backup  src:192.10  target:RAID-B  action:read         auth:fail
+[02:43:53] job:system  src:10.0.1  target:RAID-B  action:write        auth:ok
+[02:43:55] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:43:56] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:43:59] job:system  src:10.0.2  target:RAID-B  action:read_direct  auth:override
+[02:44:01] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:44:01] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok  flag:UNPROTECTED
+[02:44:02] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:44:05] job:student src:241.12  target:RAID-B  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:44:08] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:44:13] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:44:14] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:44:14] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:44:15] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok
+[02:44:17] job:system  src:10.0.2  target:RAID-A  action:sync         auth:ok
+[02:44:18] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:44:18] job:backup  src:192.10  target:RAID-C  action:check        auth:ok
+[02:44:19] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:44:20] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:44:26] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:44:27] job:student src:239.77  target:RAID-A  action:sync         auth:ok
+[02:44:33] job:student src:241.12  target:RAID-C  action:check        auth:ok
+[02:44:41] job:student src:241.12  target:RAID-A  action:read         auth:fail
+[02:44:43] job:student src:239.77  target:RAID-C  action:sync         auth:fail
+[02:44:46] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:44:47] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:44:48] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:44:51] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:44:53] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:44:53] job:backup  src:192.10  target:RAID-C  action:sync         auth:ok  flag:UNPROTECTED
+[02:44:53] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:44:56] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:44:58] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok
+[02:44:58] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:45:02] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:45:05] job:system  src:10.0.2  target:RAID-C  action:check        auth:ok
+[02:45:11] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:45:12] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:45:14] job:student src:241.12  target:RAID-A  action:check        auth:ok
+[02:45:15] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:45:17] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok
+[02:45:19] job:student src:239.77  target:RAID-A  action:sync         auth:ok
+[02:45:21] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:45:23] job:system  src:10.0.1  target:RAID-C  action:write        auth:ok
+[02:45:25] job:system  src:10.0.2  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:45:27] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:45:28] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:45:29] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:45:29] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:45:33] job:backup  src:192.10  target:RAID-B  action:read_direct  auth:ok
+[02:45:34] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:45:36] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:45:37] job:student src:241.12  target:RAID-C  action:read         auth:ok  flag:UNPROTECTED
+[02:45:37] job:system  src:10.0.1  target:RAID-C  action:check        auth:ok
+[02:45:38] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:45:39] job:student src:241.12  target:RAID-A  action:check        auth:ok
+[02:45:40] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:45:41] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:45:42] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:45:43] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:45:44] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:45:44] job:student src:239.77  target:RAID-B  action:read_direct  auth:ok
+[02:45:44] job:system  src:10.0.1  target:RAID-B  action:sync         auth:ok
+[02:45:46] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:45:48] job:student src:239.77  target:RAID-B  action:write        auth:ok
+[02:45:48] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:DELAYED_WRITE
+[02:45:50] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:ok
+[02:45:54] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:46:00] job:system  src:10.0.1  target:RAID-C  action:read         auth:override
+[02:46:02] job:backup  src:192.10  target:RAID-A  action:write        auth:fail
+[02:46:02] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:46:03] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:46:05] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:46:07] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:46:11] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:46:13] job:system  src:10.0.2  target:RAID-C  action:read         auth:fail
+[02:46:13] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:46:14] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:46:17] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:46:24] job:student src:240.68  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:46:24] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:46:27] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:46:32] job:system  src:10.0.2  target:RAID-B  action:check        auth:ok
+[02:46:32] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:46:32] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:46:36] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:46:39] job:system  src:10.0.1  target:RAID-A  action:sync         auth:ok
+[02:46:39] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:46:40] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:46:42] job:system  src:10.0.1  target:RAID-A  action:read_direct  auth:ok
+[02:46:44] job:student src:241.12  target:RAID-A  action:read         auth:fail
+[02:46:48] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:46:49] job:backup  src:192.10  target:RAID-A  action:check        auth:ok
+[02:46:52] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:46:52] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:46:53] job:system  src:10.0.1  target:RAID-C  action:read         auth:fail
+[02:46:56] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:46:56] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:46:57] job:system  src:10.0.2  target:RAID-B  action:write        auth:ok  flag:UNPROTECTED
+[02:46:58] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:46:58] job:system  src:10.0.2  target:RAID-B  action:sync         auth:ok
+[02:47:06] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:47:07] job:student src:241.12  target:RAID-A  action:sync         auth:ok
+[02:47:09] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:47:11] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:47:12] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:47:16] job:student src:241.12  target:RAID-A  action:write        auth:ok
+[02:47:17] job:student src:241.12  target:RAID-B  action:read         auth:ok
+[02:47:25] job:student src:240.68  target:RAID-A  action:check        auth:ok
+[02:47:26] job:student src:239.77  target:RAID-C  action:write        auth:ok  flag:CHECKSUM_WARN
+[02:47:27] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:47:28] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:47:30] job:student src:239.77  target:RAID-C  action:read         auth:ok
+[02:47:30] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:47:39] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:47:41] job:backup  src:192.10  target:RAID-A  action:read_direct  auth:ok
+[02:47:43] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:47:43] job:system  src:10.0.2  target:RAID-B  action:read_direct  auth:ok  flag:CHECKSUM_WARN
+[02:47:53] job:system  src:10.0.2  target:RAID-A  action:read_direct  auth:ok
+[02:47:56] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:47:57] job:system  src:10.0.2  target:RAID-C  action:sync         auth:ok  flag:DELAYED_WRITE
+[02:47:57] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:47:58] job:student src:241.12  target:RAID-C  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:47:59] job:student src:241.12  target:RAID-B  action:sync         auth:ok
+[02:47:59] job:system  src:10.0.1  target:RAID-A  action:write        auth:ok
+[02:48:01] job:backup  src:192.10  target:RAID-A  action:write        auth:ok
+[02:48:02] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:48:03] job:backup  src:192.10  target:RAID-A  action:sync         auth:ok
+[02:48:05] job:student src:241.12  target:RAID-C  action:read         auth:fail  flag:DELAYED_WRITE
+[02:48:05] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:48:09] job:backup  src:192.10  target:RAID-B  action:check        auth:ok
+[02:48:11] job:backup  src:192.10  target:RAID-B  action:sync         auth:ok
+[02:48:11] job:system  src:10.0.2  target:RAID-A  action:write        auth:ok
+[02:48:12] job:system  src:10.0.1  target:RAID-B  action:read         auth:ok
+[02:48:14] job:backup  src:192.10  target:RAID-C  action:read_direct  auth:ok
+[02:48:14] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:48:17] job:backup  src:192.10  target:RAID-A  action:read         auth:fail
+[02:48:18] job:backup  src:192.10  target:RAID-A  action:check        auth:fail
+[02:48:22] job:student src:240.68  target:RAID-A  action:read         auth:fail
+[02:48:25] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:48:26] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:48:26] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:48:26] job:system  src:10.0.1  target:RAID-A  action:read         auth:override
+[02:48:30] job:backup  src:192.10  target:RAID-B  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:48:32] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:48:33] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:48:35] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:48:36] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:48:38] job:student src:240.68  target:RAID-B  action:write        auth:ok
+[02:48:38] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:48:42] job:student src:241.12  target:RAID-C  action:read_direct  auth:ok
+[02:48:45] job:student src:239.77  target:RAID-A  action:read         auth:fail
+[02:48:47] job:system  src:10.0.1  target:RAID-B  action:write        auth:fail
+[02:48:49] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok
+[02:48:49] job:student src:241.12  target:RAID-C  action:read         auth:ok
+[02:48:55] job:student src:240.68  target:RAID-B  action:read         auth:ok  flag:DELAYED_WRITE
+[02:48:56] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:48:57] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:49:01] job:student src:239.77  target:RAID-B  action:read         auth:ok
+[02:49:01] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:49:04] job:student src:239.77  target:RAID-C  action:write        auth:ok
+[02:49:07] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:49:09] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:49:12] job:student src:239.77  target:RAID-A  action:read         auth:ok
+[02:49:12] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:49:13] job:student src:240.68  target:RAID-C  action:write        auth:ok
+[02:49:13] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:49:15] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok  flag:DELAYED_WRITE
+[02:49:16] job:student src:241.12  target:RAID-A  action:read_direct  auth:ok
+[02:49:16] job:student src:240.68  target:RAID-A  action:read         auth:override
+[02:49:19] job:system  src:10.0.2  target:RAID-C  action:read         auth:ok
+[02:49:22] job:system  src:10.0.2  target:RAID-A  action:check        auth:ok  flag:CHECKSUM_WARN
+[02:49:25] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:49:27] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:49:30] job:student src:241.12  target:RAID-A  action:read         auth:ok
+[02:49:30] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:49:33] job:system  src:10.0.2  target:RAID-B  action:read         auth:ok
+[02:49:34] job:system  src:10.0.2  target:RAID-B  action:sync         auth:ok
+[02:49:35] job:system  src:10.0.2  target:RAID-A  action:read         auth:ok
+[02:49:35] job:backup  src:192.10  target:RAID-A  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:49:39] job:backup  src:192.10  target:RAID-B  action:write        auth:ok
+[02:49:39] job:student src:241.12  target:RAID-B  action:check        auth:ok
+[02:49:42] job:student src:241.12  target:RAID-A  action:sync         auth:ok
+[02:49:43] job:backup  src:192.10  target:RAID-A  action:read         auth:ok
+[02:49:43] job:system  src:10.0.1  target:RAID-C  action:read         auth:ok  flag:CHECKSUM_WARN
+[02:49:45] job:student src:241.12  target:RAID-C  action:sync         auth:ok
+[02:49:45] job:backup  src:192.10  target:RAID-C  action:write        auth:ok
+[02:49:47] job:system  src:10.0.1  target:RAID-A  action:read         auth:ok
+[02:49:48] job:student src:241.12  target:RAID-B  action:check        auth:ok
+[02:49:51] job:backup  src:192.10  target:RAID-C  action:read         auth:ok
+[02:49:55] job:backup  src:192.10  target:RAID-B  action:read         auth:ok
+[02:49:55] job:system  src:10.0.1  target:RAID-B  action:read         auth:override
+[02:49:55] job:student src:240.68  target:RAID-A  action:read         auth:ok
+[02:50:00] job:student src:241.12  target:RAID-A  action:write        auth:ok

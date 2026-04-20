@@ -1,0 +1,12 @@
+8  r . . . . r k .
+7  p p p . . p . p
+6  . . . . b p . .
+5  . . . . p N . .
+4  . . . n . . . .
+3  . . . B . . . .
+2  q P P R . P P P
+1  . . K Q . . . R
+
+   a b c d e f g h
+
+Black is lowercase, White is uppercase.

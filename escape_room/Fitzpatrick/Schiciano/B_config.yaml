@@ -1,0 +1,17 @@
+hooks:
+  read:
+    - condition: always
+      actions:
+        - map_to: _B
+  write:
+    - condition: always
+      actions:
+        - map_to: _B
+  readdir_search:
+    - condition: always
+      actions:
+        - map_to: _B
+
+directory_map:
+  condition: always
+  map_to: _B

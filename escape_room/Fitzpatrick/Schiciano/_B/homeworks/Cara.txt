@@ -1,0 +1,15 @@
+1. 32
+2. Harvard
+3. decoder
+4. 1
+5. 0
+6. superscalar
+7. 8
+8. register
+9. 3
+10. 7
+11. cache line
+12. 32
+13. little-endian
+14. 4
+15. control unit

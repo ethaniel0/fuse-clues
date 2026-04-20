@@ -1,0 +1,7 @@
+Verify wire specifications using these positions:
+
+R at 5
+G at 12
+B at 8
+
+Trim only after verification.

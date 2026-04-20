@@ -1,0 +1,18 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  readdir:
+    - condition: always
+      actions:
+        - value: null
+
+  read:
+    - condition: always
+      actions:
+        - content_text: "unit #4 active session — 03/04 02:14 \n access origin: _ _ _.236._ _ _._ _ \n "

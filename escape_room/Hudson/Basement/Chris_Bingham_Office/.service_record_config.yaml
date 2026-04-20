@@ -1,0 +1,33 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+
+  readdir:
+    - condition: always
+      actions:
+        - value: null
+
+  read:
+    - condition: always
+      actions:
+        - content_text: " unit #4 service history \n last accessed: 03/04 02:14 \n access origin: _ _ _.2_ _._ _ _._ _ \n last octet: see Server_Closet \n unit status: unresolved, checked into 'Second_Floor/Masters_Lounge', never returned \n\n "
+
+  getattr:
+    - condition: always
+      actions:
+        - value:
+            mode: 32768
+
+
+
+# unit #4 service history
+# last accessed: 03/04 02:14
+# access origin: _ _ _.2_ _._ _ _._ _
+# last octet: see Server_Closet
+# unit status: unresolved — checked into Second_Floor/Masters_Lounge, never returned

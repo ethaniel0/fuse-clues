@@ -1,0 +1,23 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+        
+  readdir:
+    - condition:
+        not:
+          file_exists: "../../../shared_folder/ip_addr.txt"
+      actions:
+        - value: null
+
+  getattr:
+    - condition:
+        not:
+          file_exists: "../../../shared_folder/ip_addr.txt"
+      actions:
+        - value: null

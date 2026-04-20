@@ -1,0 +1,15 @@
+1. 16
+2. Harvard
+3. control unit
+4. 0
+5. 0
+6. branch prediction
+7. 2
+8. register
+9. 3
+10. 7
+11. cache line
+12. 128
+13. little-endian
+14. 4
+15. ALU

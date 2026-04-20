@@ -1,0 +1,17 @@
+RAID ACCESS LOG — FILTER NOTES
+
+The log is too noisy to search directly.
+
+Break the problem down:
+1. isolate the time window
+2. isolate the job type
+3. remove the common behavior
+4. isolate anything unusual
+
+You will need multiple filters.
+
+Remember:
+Each filter reduces noise.
+You can also remove matches, not just include them.
+
+Stack them until only one entry remains.

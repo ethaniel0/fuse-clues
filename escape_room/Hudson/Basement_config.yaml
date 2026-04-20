@@ -1,0 +1,41 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+        
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "First_Floor/ECE_Display_Board/checkpoint_3_answer.txt"
+            expected_substring: "(?i)Hudson/Basement"
+      actions:
+        - value: null
+    # - condition:
+    #     not:
+    #       file_content_contains:
+    #         path: "checkpoint_3_answer.txt"
+    #         expected_substring: "(?i)Basement"
+    #   actions:
+    #     - value: null
+
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "First_Floor/ECE_Display_Board/checkpoint_3_answer.txt"
+            expected_substring: "(?i)Hudson/Basement"
+      actions:
+        - value: ""
+    # - condition:
+    #     not:
+    #       file_content_contains:
+    #         path: "checkpoint_3_answer.txt"
+    #         expected_substring: "(?i)Basement"
+    #   actions:
+    #     - value: ""

@@ -1,0 +1,15 @@
+1. 64
+2. Harvard
+3. decoder
+4. 0
+5. 0
+6. superscalar
+7. 4
+8. register
+9. 3
+10. 99
+11. stack
+12. 32
+13. little-endian
+14. 8
+15. memory controller

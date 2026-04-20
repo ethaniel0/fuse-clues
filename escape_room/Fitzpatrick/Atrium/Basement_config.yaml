@@ -1,0 +1,10 @@
+hooks:
+  getattr:
+    - condition: always
+      actions:
+        - value: { 'mode': 0040000 }
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  

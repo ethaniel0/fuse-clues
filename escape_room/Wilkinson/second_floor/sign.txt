@@ -1,0 +1,13 @@
+PORTAL (WORKING)
+
+This portal connects to other buildings. You can find it via 'portal/'
+
+It is invisible, but it exists — and it works.
+
+Put things in → they show up somewhere else.
+Take things out → they came from somewhere else.
+
+No, we don’t know how it works.
+Yes, it’s safe.
+
+Please handle with care!

@@ -1,0 +1,11 @@
+ECE 566 — RAID Analysis Notes
+
+Focus: timestamp filtering
+
+The suspicious behavior happens in a very tight window.
+
+You don’t need full timestamps —
+matching the minute is enough to isolate it.
+
+Use:
+  grep "02:05"

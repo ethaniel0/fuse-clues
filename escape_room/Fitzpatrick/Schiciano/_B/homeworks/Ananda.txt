@@ -1,0 +1,15 @@
+1. 16
+2. Harvard
+3. control unit
+4. 1
+5. 1
+6. out-of-order
+7. 16
+8. cache
+9. 1
+10. 13
+11. stack
+12. 64
+13. big-endian
+14. 16
+15. memory controller

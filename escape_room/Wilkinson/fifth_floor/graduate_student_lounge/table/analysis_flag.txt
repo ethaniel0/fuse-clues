@@ -1,0 +1,13 @@
+ECE 566 — RAID Analysis Notes
+
+Focus: flags
+
+Most entries don’t have flags.
+
+Anything that does is worth looking at.
+
+Don’t worry about the value —
+just find entries where a flag exists.
+
+Filter on:
+  flag:

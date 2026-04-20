@@ -1,0 +1,4 @@
+Contents of files are not always shown and file size is not always used to 
+represent the files actual size. The reported file size does not always reflect visible content.
+Sometimes, data begins at an offset derived from system parameters.
+

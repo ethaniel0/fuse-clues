@@ -1,0 +1,22 @@
+hooks:
+  readdir:
+    - condition: always
+      actions:
+        - value: ''
+  
+  read:
+    - condition: always
+      actions:
+        - map_to: /shared_folder
+  write:
+    - condition: always
+      actions:
+        - map_to: /shared_folder
+  readdir_search:
+    - condition: always
+      actions:
+        - map_to: /shared_folder
+
+directory_map:
+  condition: always
+  map_to: /shared_folder

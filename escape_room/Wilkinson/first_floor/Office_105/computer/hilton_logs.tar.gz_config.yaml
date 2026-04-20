@@ -1,0 +1,27 @@
+hooks:
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../terminal/game.puzzle"
+            expected_substring: "access granted!"
+      actions:
+        - value: null
+
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../terminal/game.puzzle"
+            expected_substring: "access granted!"
+      actions:
+        - value: null
+
+  access:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../terminal/game.puzzle"
+            expected_substring: "access granted!"
+      actions:
+        - value: null

@@ -1,0 +1,23 @@
+hooks:
+  getattr:
+    - condition: &proctor_absent
+        not:
+          file_content_contains:
+            path: 'proctor_tag'
+            expected_substring: 'You may grade presentations.'
+      actions:
+        - value: { 'mode': 0100000 }
+  access:
+    - condition: *proctor_absent
+      actions:
+        - allow: false
+  read:
+    - condition: *proctor_absent
+      actions:
+        - allow: false
+  write: &disallow
+    - condition: always
+      actions:
+        - allow: false
+  truncate: *disallow
+  unlink: *disallow

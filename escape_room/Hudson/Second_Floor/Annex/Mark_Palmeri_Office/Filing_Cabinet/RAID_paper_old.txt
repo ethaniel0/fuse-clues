@@ -1,0 +1,21 @@
+Low-Power RAID Architectures for Embedded Systems
+  M. Palmeri, A. Cook
+  Draft — DO NOT SUBMIT
+
+Section 3: Routing Tags 
+
+Example routing tags used during early testing:
+  Annex_Hallway
+  lab_storage
+  server_room
+
+These tags correspond to physical deployment zones used
+during initial validation. They should not be used in final
+deployment configurations.
+
+TODO:
+  - replace with deployment-specific routing tag
+  - confirm with Amelia before submission
+
+routing_tag: West_Corridor
+

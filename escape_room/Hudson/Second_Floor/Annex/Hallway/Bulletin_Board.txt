@@ -1,0 +1,8 @@
+Annex Research Posters — Week of 03/10
+
+Low-Power RAID Architectures (Palmeri & Cook)
+  → full draft available in Palmeri's office
+
+Networked Storage Systems (Chen)
+  → see department website
+

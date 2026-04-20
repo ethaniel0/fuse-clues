@@ -1,0 +1,19 @@
+hooks:
+  read:
+    - condition: always
+      actions:
+        - map_to: hidden_dir
+  write:
+    - condition: always
+      actions:
+        - map_to: hidden_dir
+  readdir:
+    - condition: 
+        file_exists: b
+      actions:
+        - map_to: hidden_dir
+
+directory_map:
+  condition:
+    file_exists: b
+  map_to: hidden_dir

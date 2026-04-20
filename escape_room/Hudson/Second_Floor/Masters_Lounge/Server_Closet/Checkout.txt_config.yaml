@@ -1,0 +1,26 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../ip_addr.txt"
+            expected_substring: "(?i)236"
+      actions:
+        - value: ""
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../ip_addr.txt"
+            expected_substring: "(?i)236"
+      actions:
+        - value: null
+        

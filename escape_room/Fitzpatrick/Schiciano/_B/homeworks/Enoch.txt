@@ -1,0 +1,15 @@
+1. 8
+2. Von Neumann
+3. control unit
+4. 1
+5. 0
+6. out-of-order
+7. 2
+8. cache
+9. 3
+10. 7
+11. stack
+12. 64
+13. big-endian
+14. 4
+15. memory controller

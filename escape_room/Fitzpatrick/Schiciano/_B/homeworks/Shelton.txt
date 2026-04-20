@@ -1,0 +1,15 @@
+1. 128
+2. Harvard
+3. FPU
+4. 1
+5. 1
+6. pipelining
+7. 8
+8. cache
+9. 4
+10. 13
+11. heap
+12. 128
+13. little-endian
+14. 4
+15. control unit

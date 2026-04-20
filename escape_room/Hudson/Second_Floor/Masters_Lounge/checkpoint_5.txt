@@ -1,0 +1,7 @@
+checkpoint: clue_5
+submit the number revealed to you for the access origin IP address to ip_addr.txt (no checkpoint_5_answer.txt file for this clue)
+
+
+hint it is the second number in this IP Addres: _ _ _.XXX._ _ _._ _
+
+Once correct, Server_Closet/Checkout.txt appear!!!!

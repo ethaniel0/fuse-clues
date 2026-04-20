@@ -1,0 +1,15 @@
+1. 32
+2. Modified Harvard
+3. control unit
+4. 0
+5. 1
+6. pipelining
+7. 8
+8. register
+9. 4
+10. 255
+11. heap
+12. 32
+13. little-endian
+14. 16
+15. memory controller

@@ -1,0 +1,31 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+        
+  readdir:
+    - condition:
+        not:
+          all:
+            - file_exists: "../../../shared_folder/blue_wire"
+            - file_exists: "../../../shared_folder/green_wire"
+            - file_exists: "../../../shared_folder/red_wire"
+            - file_exists: "../../../shared_folder/wire_cutter"
+      actions:
+        - value: null
+
+  getattr:
+    - condition:
+        not:
+          all:
+            - file_exists: "../../../shared_folder/blue_wire"
+            - file_exists: "../../../shared_folder/green_wire"
+            - file_exists: "../../../shared_folder/red_wire"
+            - file_exists: "../../../shared_folder/wire_cutter"
+      actions:
+        - value: null

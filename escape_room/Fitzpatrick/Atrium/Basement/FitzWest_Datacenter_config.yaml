@@ -1,0 +1,22 @@
+hooks:
+  access:
+    - condition: &locked
+        not:
+          all:
+            - file_content_matches:
+                path: id_scanner/*
+                expected_content: "zmnzR9mfGGnre"
+            - permissions_equals: 
+                path: id_scanner/*
+                permissions: "rwx-wxrw-"
+      actions:
+        - allow: false
+  readdir_search:
+    - condition: *locked
+      actions:
+        - display: noaccess
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+

@@ -1,0 +1,15 @@
+1. 16
+2. Von Neumann
+3. FPU
+4. 1
+5. 0
+6. pipelining
+7. 16
+8. register
+9. 2
+10. 255
+11. register
+12. 64
+13. big-endian
+14. 4
+15. control unit

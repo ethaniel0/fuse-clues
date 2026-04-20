@@ -1,0 +1,76 @@
+Evaluating RAID for Dependable Backup Solutions
+By Austin and Dylan
+
+# Abstract
+
+This project investigates the effectiveness of RAID (Redundant Array of Independent Disks) as a dependable backup solution. While RAID is frequently associated with data redundancy and reliability, this study examines whether it fulfills the critical requirements of a true backup system. Through simulated failures, accidental deletions, and moments of poor decision-making, RAID configurations were evaluated for their ability to preserve data over time. Results indicate that RAID performs exceptionally well at preserving mistakes in real time. The findings suggest that while RAID offers redundancy, it does not constitute a backup—though it does provide a strong sense of false security.
+
+# Introduction
+
+In the world of data storage, RAID is often discussed with an air of confidence and acronyms. Many individuals, upon hearing terms like “redundancy” and “fault tolerance,” conclude that RAID must also function as a backup solution. This project aims to rigorously test that assumption before it causes irreversible emotional damage.
+
+A true backup system is generally expected to:
+
+- Preserve data over time
+- Protect against accidental deletion
+- Provide recovery from catastrophic failures
+- Allow users to say, “It’s fine, I have a backup,” and actually mean it
+
+This study asks the important question: Can RAID do these things, or does it just look like it can?
+
+
+# Methodology
+
+To evaluate RAID as a backup solution, several experiments were conducted across common RAID configurations (RAID 0, RAID 1, and RAID 5). The following highly scientific procedures were used:
+
+1. Disk Failure Simulation
+    Drives were intentionally “failed” (unplugged with dramatic flair) to observe data survivability.
+2. Accidental Deletion Test
+    Important files were deleted, followed by immediate regret, to assess recovery capabilities.
+3. File Corruption Test
+    Data was corrupted through unspecified but suspicious means to evaluate RAID’s response.
+4. Time-Based Recovery Test
+    Older versions of files were requested from RAID using the advanced technique of “longing for the past.”
+5. User Confidence Measurement
+    The researcher’s confidence in their data safety was recorded before and after each test.
+
+
+# Results
+
+The experiments yielded the following observations:
+
+- Disk Failure:
+    RAID successfully protected against single-disk failures (depending on configuration), demonstrating impressive resilience and earning a brief moment of respect.
+- Accidental Deletion:
+    Deleted files were removed efficiently and consistently across all disks, ensuring that mistakes were preserved with perfect synchronization.
+- File Corruption:
+    Corrupted data was faithfully replicated, guaranteeing that all copies were equally unusable.
+- Time-Based Recovery:
+    RAID was unable to provide previous versions of files, instead offering the current (and possibly regrettable) state.
+- User Confidence:
+    Confidence began high, peaked during disk failure recovery, and dropped sharply upon realizing what RAID does not do.
+
+
+# Discussion
+
+The results highlight a critical distinction: RAID provides redundancy, not backup. While redundancy protects against hardware failure, it does not protect against:
+
+- Human error
+- Software bugs
+- Malware
+- Poor life decisions
+
+RAID’s primary strength lies in its ability to keep systems running despite hardware issues. However, it operates under the assumption that the current state of the data is desirable, which is a bold assumption.
+
+This leads to a phenomenon known as “RAID-induced overconfidence,” where users believe their data is safe until they need an earlier version of a file and discover that RAID has been faithfully maintaining their mistake the entire time.
+
+
+# Conclusion
+
+This study concludes that RAID is not a dependable backup solution. It is, instead, an excellent tool for improving system reliability and uptime—while simultaneously doing absolutely nothing to help you recover from your own actions.
+
+For true data protection, RAID should be combined with proper backup strategies, such as versioned backups, offsite storage, or simply not deleting important files (though this last method has shown limited success in practice).
+
+
+# Future Work:
+Future research may investigate whether labeling a RAID array as “backup” improves its functionality

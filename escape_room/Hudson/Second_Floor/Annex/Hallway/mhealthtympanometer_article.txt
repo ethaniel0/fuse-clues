@@ -1,0 +1,129 @@
+Preventing Childhood Hearing Loss Worldwide
+
+Local and global collaborations help BME Design Fellows make a low-cost, affordable, and easy-to-use screening tool for hearing loss in children
+
+Jacklyn “Jackie” Herzberg was in her junior year as a biomedical engineering (BME) student at Duke University when she approached her professor, 
+Mark Palmeri, with a question. Herzberg had just finished the first sequence of BME Design Fellows, a three-semester program that enables students to 
+design and test medical instruments based on needs identified by Duke Health clinicians.
+
+Herzberg was looking for an independent study project that would help her gain additional experience in the world of medical device design. But she 
+didn’t know that Palmeri, a professor of the practice in biomedical engineering, had just the project in mind––one that would span the Atlantic ocean 
+and could help prevent hearing loss worldwide.
+
+Ears Under Pressure
+It’s a fact of life that most children suffer through an ear infection, with the National Institutes of Health (NIH) estimating that 5 of 6 
+children in the U.S. alone experience at least one ear infection before their third birthday. Usually, the signs of infection are clear––children 
+have a hard time hearing from the infected ear, have trouble sleeping, spike a fever and experience pain that triggers at least a few bouts of tears.
+
+But many children in under-served and rural communities don’t ever receive proper treatment.
+
+“When that happens, the infection and fluid can sit in the ear for a while and cause scarring to the eardrum,” explained Palmeri. “And that scarring 
+can lead to hearing loss that can persist into adulthood.”
+
+One in five people around the world have some form of hearing loss, and according to the World Health Organization, nearly 60 percent of hearing 
+loss in children is preventable with proper screening. 
+
+The current screening method for ear infections involves a tool called a tympanometer, which tests how well the middle ear works by measuring how 
+the eardrum moves. During the exam, an audiologist inserts a probe into the ear that creates a seal and controls the pressure in the ear canal. A speaker 
+on the tool then plays a tone at specific pressure levels, and a microphone records how the eardrum moves in response.
+
+“In a healthy ear, the sound from the speaker should hit the eardrum and reflect back towards the microphone,” said Palmeri. “When pressure is neutral, the
+ear drum should move to allow sound through. But if you have pus or some other material behind your eardrum, the sound gets reflected back. That’s when the 
+child needs to see a doctor.”
+
+While there’s no doubt tympanometers are effective, their reach is limited. The devices cost thousands of dollars, and a trained audiologist is required to 
+read and assess the measurements. These factors make them more likely to be available in cities with robust healthcare systems.
+
+This is an issue that Samantha Robler, a clinical and research audiologist, and Dr. Susan Emmett, then an associate professor of surgery and global health at 
+Duke, are well aware of. The duo had been working on a large, randomized trial to investigate childhood hearing loss in rural Alaska when they realized that a 
+mobile, easy-to-use version of a tympanometer was necessary to help prevent hearing loss in underserved populations.  
+
+“Hearing loss is extremely common in rural areas. The World Health Organization estimates that 80 percent of hearing loss worldwide is in under-served 
+communities––the exact places that have the least access to care,” said Dr. Emmett, now the founder and director of the Center for Hearing Health Equity 
+(CCHE) at the University of Arkansas for Medical Sciences. “This is particularly concerning for children, because we know that approximately 75 percent 
+of hearing loss in children in underserved communities is due to ear infections and is preventable.” 
+
+But Emmett and Robler also knew they needed engineers if they wanted to make this idea a reality. In 2020, Palmeri, Emmett, Robler formed an 
+interdisciplinary team of physicians, engineers and students and received a grant to jump-start the project, officially called the mHealth Tympanometer.
+
+Back to Basics
+The mHealth Tympanometer needed to be more affordable, and it needed to be so easy to use that a professional audiologist wasn’t necessary. 
+These needs became the two arms of the project. 
+
+First, the team wanted to create a machine learning algorithm that could effectively interpret data and limit the need for an audiologist. 
+Palmeri recruited Felix Jin and Ouwen Huang, two MD-PhD students who were working with Palmeri at the time, to develop the algorithm.
+
+With support from the Duke Global Health Institute, Jin and Huang developed a deep learning model using tympanometry data collected by both trained 
+audiologists and laypeople from school-aged children in rural Alaska. By comparing these readings, the team taught their algorithm how to interpret 
+the range of data with the same sensitivity as a trained audiologist.
+
+“In our study population of rural Alaskan children, ten percent of examined ears had an abnormal tympanometry result that indicated some form of damage, 
+and tympanometry improved the sensitivity of school hearing screening by 20 percent,” said Jin, now a diagnostic radiology resident at the Duke University 
+Medical Center. “These results helped improve our model training and performance, but it also highlights the critical need and urgency for better treatment. 
+This clear clinical need helped motivate us and focus our efforts.”
+
+“Ouwen and Felix’s work was significant because it showed us that an automated machine learning tool could make it possible for someone like a school nurse 
+or a teacher to effectively perform screening tympanometry,” said Palmeri. “And because we could leverage the processing power of a regular Android phone, 
+it was also cost-efficient.”
+
+Ideally, the device would collect the data and send it to a phone via Bluetooth, where the machine learning algorithm would analyze the reading and display 
+the results.
+
+But the design of the device itself was less straightforward.
+
+“Early days were a hot mess because it was during COVID,” Palmeri said. “Supply issues were common, and Susan and Samantha left Duke to start the 
+Center for Hearing Health Equity at the University of Arkansas for Medical Sciences, so they were working with us remotely.”
+
+But there were silver linings despite the chaos. Groups of BME Design Fellows cycled through the project, helping to design an effective exterior for 
+the tympanometer that served as the springboard for future iterations. The team also received both R21 and R33 grants from the NIH, which provided additional 
+funding to support the prototyping process.
+
+“I really got thrown into the project,” said Herzberg, who joined the team in 2023 at Palmeri’s recommendation. The BME Design Fellow realized that she’d 
+need to learn advanced engineering skills on the fly if she wanted to make helpful contributions.  “Initially, I was adapting things that students had worked 
+on at earlier points in the design process, but once I got more comfortable, I started developing more of the firmware and took over testing the electronics.”
+
+By the end of her junior year, Herzberg was the de facto leader of the project, and she was even able to continue her work during her summer internship at 
+Blur Product Development in nearby Research Triangle Park. This was especially helpful, as many aspects of the device needed to be custom made––something 
+that wasn’t always achievable in an academic setting, even with the resources available at Duke.
+
+Unlike other portable tympanometers, which are typically tabletop or awkward portable devices with a screen and a probe on a cable that fits in the ear, 
+the mHealth tympanometer has a sleek design that fits into the palm of the hand the way a glue gun does. An exterior case of 3D-printed white plastic holds 
+the microphone, speaker, pressure sensor, and an actuator and syringe, which are all connected by wires and tubing. The top of the syringe extends at the 
+front of the device, and a silicone ear tip can be added to its opening to create a seal when inserted.
+
+The device was fully functional by the fall semester of 2023––though, Palmeri says, the team knew there were still some kinks to work out. But by then they 
+had new collaborators ready and willing to help.
+
+Forging Global and Local Connections
+“I was really inspired by Jackie’s enthusiasm for this project,” said Dmitri Morales, a BME senior and Design Fellow, who’d been recruited by Palmeri to 
+work on the tympanometer. “I knew I had a love for engineering, but working on this project really inspired a passion for medical technologies.”
+
+Morales wasn’t the only BME Design Fellow to join the team that semester––Kyle Duerr and Tasman Miley, also BME seniors, had jumped at the opportunity to 
+join the project after hearing about the device from Herzberg and Palmeri. 
+
+Although Herzberg oversaw every aspect of the project, each new teammate focused on improving a different component of the functional device. Deurr 
+helped streamline the code and reformatted the enclosure to fit new electronic components. Miley was tasked with adjusting the syringe and tip of the 
+device to ensure that it could be easily removed for cleaning. Morales adapted the Bluetooth in the tympanometer so it could send more information to an 
+app the team developed in partnership with hearX, a South African company that creates mobile apps and tools for hearing screening and diagnostics.
+
+“I think we realized how big the team had gotten when we had to arrange meetings across four time zones,” said Herzberg. “We had Dr. Emmett and Dr. Robler 
+in Arkansas, our team in Durham, an audiologist in Hawaii, and the team at hearX in South Africa.”
+
+The prototype was finally put to the test beginning March of 2024, when Herzberg flew to Pretoria, South Africa to test and troubleshoot the device with the 
+hearX team. Robler, an assistant professor at the University of Arkansas for Medical Sciences and associate director of the CCHE, is leading the first-in-human 
+study with the device in Arkansas. This effort will soon be followed by a larger community-based study with 500 preschool children in South Africa.
+
+Moving forward, the team will use these data to optimize and make necessary changes as they finalize the device. They’ve received a grant from the Duke-Coulter 
+Translational Partnership to help support these efforts.
+
+“Once we’ve locked in the design, we’ll apply for FDA clearance so we can hopefully get the tool approved domestically. We also made sure that all intellectual 
+property was open-sourced and costs zero dollars to license from Duke. There’s a global need for a tool like this––our data and design are things we want people 
+to use,” said Dr. Palmeri.
+
+Although the student team all graduated from Duke in 2024, Herzberg will continue to work on the device at Blur––this time on staff as a research and 
+development engineer. Blur will continue to serve as an engineering consultant and help the team craft the final device and determine how to scale up their 
+design if it’s approved.
+
+“This entire project was so important for my academic and professional development,” she said. “I think it’s unusual for students to lead a big design project 
+like this, but I’m so grateful to my friends, our collaborators, and Dr. Palmeri for being a great influence and helping me seize this opportunity.”
+

@@ -1,0 +1,14 @@
+RAID access logs don’t line up.
+
+Looks like a normal student job at first,
+but the IP isn’t stable.
+
+Same capture → different result depending how it’s read.
+
+That shouldn’t happen.
+
+Saved the raw output.
+Didn’t get to clean it.
+I left it at my office - 105.
+
+- A.H

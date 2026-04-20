@@ -1,0 +1,40 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../Basement/Chris_Bingham_Office/checkpoint_4_answer.txt"
+            expected_substring: "(?i)Second_Floor/Masters_Lounge"
+      actions:
+        - value: null
+    # - condition:
+    #     not:
+    #       file_content_contains:
+    #         path: "checkpoint_4_answer.txt"
+    #         expected_substring: "(?i)Second_Floor/Masters_Lounge"
+    #   actions:
+    #     - value: ""
+
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../Basement/Chris_Bingham_Office/checkpoint_4_answer.txt"
+            expected_substring: "(?i)Second_Floor/Masters_Lounge"
+      actions:
+        - value: ""
+    # - condition:
+    #     not:
+    #       file_content_contains:
+    #         path: "checkpoint_4_answer.txt"
+    #         expected_substring: "(?i)Second_Floor/Masters_Lounge"
+    #   actions:
+    #     - value: ""

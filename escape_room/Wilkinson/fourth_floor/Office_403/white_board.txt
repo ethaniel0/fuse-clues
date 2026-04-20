@@ -1,0 +1,11 @@
+Error Correction — Hamming Code (7,4)
+
+received word:
+1011110
+
+parity checks:
+p1 -> FAIL
+p2 -> OK
+p4 -> FAIL
+
+fix the error directly to see contents of desk

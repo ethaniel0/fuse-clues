@@ -1,0 +1,15 @@
+1. 128
+2. Modified Harvard
+3. control unit
+4. 1
+5. 1
+6. out-of-order
+7. 16
+8. TLB
+9. 1
+10. 99
+11. cache line
+12. 128
+13. little-endian
+14. 4
+15. ALU

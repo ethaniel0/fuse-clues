@@ -1,0 +1,15 @@
+1. 8
+2. Von Neumann
+3. decoder
+4. 0
+5. 1
+6. out-of-order
+7. 2
+8. TLB
+9. 4
+10. 42
+11. register
+12. 32
+13. little-endian
+14. 16
+15. control unit

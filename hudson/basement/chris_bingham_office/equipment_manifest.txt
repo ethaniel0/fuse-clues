@@ -1,0 +1,5 @@
+ECE Lab Equipment — Current Inventory
+Rack servers: 12 units
+Network switches: 8 units
+Last audit: 03/01/2025
+Outstanding loans: see lending_log.txt

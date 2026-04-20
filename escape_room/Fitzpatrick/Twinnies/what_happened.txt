@@ -1,0 +1,8 @@
+It seems you've overslept and the Twinnies staff didn't see you laying down on the bench. You've been locked in Twinnies!
+
+Useful commands you might use are:
+cp <source> <destination>, copy file to location
+mv <source> <destination>, move file to location
+mkdir <directory>, create a directory
+cat <file>, read file contents
+ls <directory>, list files in directory

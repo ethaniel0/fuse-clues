@@ -1,0 +1,15 @@
+1. 32
+2. Modified Harvard
+3. ALU
+4. 0
+5. 1
+6. pipelining
+7. 2
+8. register
+9. 3
+10. 255
+11. stack
+12. 32
+13. little-endian
+14. 8
+15. ALU

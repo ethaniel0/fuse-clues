@@ -1,0 +1,18 @@
+I knew this would happen.
+
+If you're reading this, you made it to the terrace —
+but you don't remember why.
+
+The door isn’t broken.
+
+I checked it already. The code is there,
+just not where you expect it.
+
+Some linux commands that may be useful:
+
+  ls / ls -l / ls -la   — list directory contents
+  cat                   — read a file
+  dd                    — read from a specific byte offset [dd if=path_to_file bs=1 skip=bytes_to_skip]
+  echo                  — write to end of file [echo input > file]
+  cd                    - move through directory structure
+  truncate              - change size of file [truncate -s size file]

@@ -1,0 +1,15 @@
+1. 8
+2. Harvard
+3. control unit
+4. 0
+5. 1
+6. superscalar
+7. 8
+8. cache
+9. 4
+10. 42
+11. cache line
+12. 64
+13. big-endian
+14. 4
+15. ALU

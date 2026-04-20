@@ -1,0 +1,15 @@
+1. 8
+2. Modified Harvard
+3. FPU
+4. 1
+5. 1
+6. pipelining
+7. 16
+8. cache
+9. 3
+10. 42
+11. stack
+12. 64
+13. big-endian
+14. 4
+15. memory controller

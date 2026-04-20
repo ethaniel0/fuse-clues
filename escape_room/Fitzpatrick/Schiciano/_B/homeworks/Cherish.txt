@@ -1,0 +1,15 @@
+1. 8
+2. Von Neumann
+3. ALU
+4. 0
+5. 1
+6. pipelining
+7. 2
+8. TLB
+9. 4
+10. 99
+11. register
+12. 64
+13. little-endian
+14. 4
+15. control unit

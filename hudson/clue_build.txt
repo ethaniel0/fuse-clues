@@ -1,0 +1,63 @@
+clue 1:
+  first floor hidden
+  basement hidden
+  filing_cabinet/, ls -l shows d---------
+
+  second_floor/annex/hallway hidden files:
+    raid_paper_poster.txt   
+    mhealthtympanometer_article.txt
+    mhealthtympanometer_poster.txt
+    checkpoint 2 
+    checkpoint 2 answers 
+
+
+clue 2:
+  first floor hidden
+  basement hidden
+
+  need to get raid_paper_poster.txt from fitz person
+  they need to place it in hallway 
+  --> then reveals other poster, mhealthtympanometer_poster
+        hidden/blocked until the RAID poster content matches expected text.
+  
+  stat mhealthtympanometer_poster.txt (sees fake large size)
+  read at offset, 8214191514 (given by size)
+  submit token 
+
+clue 3:
+  basement hidden
+
+  access_log.txt is a hidden file but they can read it 
+    if stat, Mode: ----------
+    size = 8214191514
+
+clue 4:
+  lending log permissions = ----------
+    --> can't cat it 
+  need to read at offset (given by size) (8214191514)
+
+  have to send components to Wilkinson
+
+  .service_record, stat doesnt work, hidden file, 
+    - cat works
+
+  submit token
+
+
+clue 5:
+  Server_Closet/ appears empty
+    - Server_Closet/unit_04_log.txt is a hidden file
+  
+  cant go into lounge_terminal/
+
+  Server_Closet/checkout.txt - able to view but empty
+
+  checkpoint_5.txt
+  checkpoint_5_answer.txt
+
+  need to send IP address to fitz user 
+
+  on correct answer to checkpoint_5, populate file:
+    Server_Closet/checkout.txt 
+
+  *** need to figure out reveal ****

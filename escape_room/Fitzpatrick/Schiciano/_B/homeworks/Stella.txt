@@ -1,0 +1,15 @@
+1. 8
+2. Modified Harvard
+3. ALU
+4. 0
+5. 1
+6. superscalar
+7. 16
+8. TLB
+9. 1
+10. 255
+11. register
+12. 64
+13. big-endian
+14. 8
+15. ALU

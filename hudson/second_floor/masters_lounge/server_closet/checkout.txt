@@ -1,0 +1,9 @@
+*** hidden file ***
+
+on $ echo '236' > Server_Closet/checkout.txt
+
+return :
+
+  [unit #4 return logged]
+  [signal sent]
+  [wait for display board updated — check first floor]

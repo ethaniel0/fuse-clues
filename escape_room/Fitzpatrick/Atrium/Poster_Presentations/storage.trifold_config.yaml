@@ -1,0 +1,16 @@
+hooks:
+  read:
+    - condition:
+        not:
+          file_content_contains:
+            path: 'proctor_tag'
+            expected_substring: 'You may grade presentations.'
+      actions:
+        - content_text: "hm, you're not my proctor...\n"
+    
+  write: &disallow
+    - condition: always
+      actions:
+        - allow: false
+  truncate: *disallow
+  unlink: *disallow

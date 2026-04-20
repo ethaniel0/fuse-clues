@@ -1,0 +1,5 @@
+Terminal routing reference
+
+A : 73
+B : 11
+C : 42

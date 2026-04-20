@@ -1,0 +1,46 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+  readdir:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../Mark_Palmeri_Office/checkpoint_1_answer.txt"
+            expected_substring: "(?i)Annex_Hallway"
+      actions:
+        - value: null
+
+  getattr:
+    - condition:
+        not:
+          file_content_contains:
+            path: "../Mark_Palmeri_Office/checkpoint_1_answer.txt"
+            expected_substring: "(?i)Annex_Hallway"
+      actions:
+        - value: null
+
+  
+
+  # getattr:
+  #   - condition: always
+  #     actions:
+  #       - value:
+  #           size: 236
+
+  # read:
+  #   - condition:
+  #       all:
+  #         - file_content_contains:
+  #             path: "../Mark_Palmeri_Office/checkpoint_1_answer.txt"
+  #             expected_substring: "(?i)Annex_Hallway"
+  #         - offset:
+  #             threshold: 236
+  #             mode: gte
+  #     actions:
+  #       - content_text: "badge: annex rear - 03/04 02:11\nref: access_log.txt\n"

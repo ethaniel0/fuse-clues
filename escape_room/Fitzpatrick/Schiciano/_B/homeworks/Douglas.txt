@@ -1,0 +1,15 @@
+1. 64
+2. Von Neumann
+3. FPU
+4. 1
+5. 0
+6. branch prediction
+7. 8
+8. register
+9. 4
+10. 99
+11. register
+12. 64
+13. little-endian
+14. 8
+15. control unit

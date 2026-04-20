@@ -1,0 +1,15 @@
+1. 128
+2. Von Neumann
+3. decoder
+4. 0
+5. 1
+6. branch prediction
+7. 16
+8. TLB
+9. 4
+10. 42
+11. cache line
+12. 64
+13. big-endian
+14. 16
+15. memory controller

@@ -1,0 +1,3 @@
+next steps given in 'Hudson/Second_Floor/Masters_Lounge/Server_Closet/Checkout.txt'
+
+then go to 'Hudson/First_Floor/ECE_Display_Board' to check for updates

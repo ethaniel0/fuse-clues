@@ -1,0 +1,9 @@
+hooks:
+  rename:
+    - condition: always
+      actions:
+        - allow: false
+  unlink:
+    - condition: always
+      actions:
+        - allow: false

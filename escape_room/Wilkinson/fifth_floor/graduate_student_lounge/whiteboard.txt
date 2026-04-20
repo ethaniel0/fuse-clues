@@ -1,0 +1,16 @@
+ECE 566 — RAID Analysis
+
+Everyone pick a window and document your findings.
+Compare with a partner before submitting.
+
+If your results don’t match, you’re missing a filter.
+
+Remember:
+You can chain filters together — each one narrows the output.
+
+Example:
+  grep "..." access.log | grep "..." | grep "..."
+
+Build step by step until only one entry remains.
+
+— T.B.

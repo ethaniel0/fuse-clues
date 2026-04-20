@@ -1,0 +1,6 @@
+hooks:
+  write:
+    - condition: always
+      actions:
+        - eval_value: |
+            "GARAGE LAB CARD READER\n\nstatus: unlocked\n\n" if data_str.strip() == "!d=NFkXKeWu^HTSw" else "GARAGE LAB CARD READER\n\nstatus: locked\n\ninsert pass\n"

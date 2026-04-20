@@ -1,0 +1,4 @@
+hooks:
+  unlink:
+    - condition: always
+      actions: [{ allow: false }]

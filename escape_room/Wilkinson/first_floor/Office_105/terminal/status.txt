@@ -1,0 +1,9 @@
+This machine is locked to a single session.
+Previous user left mid-session and the auth state corrupted.
+
+Recovery mode is active.
+The system will restore access once the session puzzle is resolved.
+
+Hint: use Vim with ":e" after ":w" (refreshes file content)
+Directions include: "up", "down", "left", "right", "w", "a", "s", "d"
+You can play multiple directions at once!

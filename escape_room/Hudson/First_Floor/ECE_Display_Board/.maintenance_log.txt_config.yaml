@@ -1,0 +1,20 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+
+  readdir:
+    - condition: always
+      actions:
+        - value: null
+        
+  getattr:
+    - condition: always
+      actions:
+        - value:
+            mode: 32768

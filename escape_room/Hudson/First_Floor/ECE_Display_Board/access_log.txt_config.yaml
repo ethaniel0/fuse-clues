@@ -1,0 +1,33 @@
+hooks:
+  unlink:
+    - condition: always
+      actions:
+        - allow: false
+  rmdir:
+    - condition: always
+      actions:
+        - allow: false
+        
+  readdir:
+    - condition: always
+      actions:
+        - value: null
+
+  getattr:
+    - condition: always
+      actions:
+        - value:
+            mode: 32768
+            size: 989898      # fake large size to hint there's more data
+
+  read:
+    - condition:
+        offset:
+          threshold: 989898
+          mode: gte
+      actions:
+        - content_text: "Next Location: 'Hudson/Basement' to see records \n"
+
+    - condition: always
+      actions:
+        - content_text: " 03/04  01:58 \t front entrance \t [name redacted] \n 03/04  02:11 \t annex rear \t\t [name redacted] \n 03/04  02:14 \t server_west_b \t\t [name redacted]\n\n 03/04  02:14 \t equipment checked out \t Next Locati ...\n\n ***mwah ha ha***  \n [looks like it got cutoff, maybe the metadata has false data to use to reveal the next location]\n"

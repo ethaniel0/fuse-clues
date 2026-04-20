@@ -1,0 +1,9 @@
+hooks:
+  readdir_visibility:
+    - condition: always
+      actions:
+        - set_value: false
+  readdir:
+    - condition: always
+      actions:
+        - value: ""

@@ -1,0 +1,15 @@
+1. 32
+2. Harvard
+3. control unit
+4. 1
+5. 0
+6. branch prediction
+7. 2
+8. RAM
+9. 3
+10. 42
+11. stack
+12. 128
+13. big-endian
+14. 8
+15. control unit

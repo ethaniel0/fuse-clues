@@ -1,0 +1,81 @@
+Low-Power RAID Architectures for Embedded Systems
+  M. Palmeri, A. Cook 
+  Submitted 03/01/2025
+
+Abstract: We propose a fault-tolerant RAID configuration
+optimized for embedded deployments. Performance benchmarks
+across 236 test nodes demonstrate a 40% reduction in
+write latency versus conventional RAID-5 configurations.
+
+1. Introduction
+Embedded and edge systems require storage solutions that balance
+reliability, latency, and strict power constraints. Traditional RAID
+schemes, while fault-tolerant, introduce overhead unsuitable for
+resource-constrained environments.
+
+This work proposes a lightweight RAID architecture with dynamic
+parity placement and simplified recovery logic tailored for embedded
+nodes.
+
+2. System Design
+Each node participates in both data and parity storage. Instead of
+fixed parity disks, parity blocks rotate across nodes to distribute
+load evenly.
+
+Key properties:
+  - No dedicated parity node
+  - Reduced write amplification
+  - Predictable recovery paths
+
+Nodes are logically grouped into clusters. All routing between nodes
+is abstracted through a tag-based system to decouple physical layout
+from logical recovery operations.
+
+3. Routing Tags and Recovery
+To simplify recovery in distributed deployments, each cluster is
+associated with a routing tag. These tags are used during checkpoint
+operations to determine where recovery traffic should be forwarded.
+
+Routing tags are human-readable identifiers that correspond to
+physical deployment locations (e.g., lab spaces, hallways).
+
+Important:
+  Recovery operations depend on correct routing tag usage.
+  Incorrect tags may result in silent recovery failure.
+
+4. Checkpointing Mechanism
+The system periodically writes checkpoints containing:
+  - Node state
+  - Parity mapping
+  - Routing tag reference
+
+During recovery, the routing tag must be supplied to correctly
+reconstruct the data path.
+
+5. Experimental Results
+Across 236 test nodes:
+  - 40% reduction in write latency vs RAID-5
+  - 18% reduction in recovery time
+  - Consistent performance under node failure conditions
+
+6. Discussion
+We observe that misconfigured routing tags are the primary cause
+of recovery errors in test deployments. In several cases, correct
+data could not be reconstructed despite intact parity due to
+incorrect routing references.
+
+7. Conclusion
+Routing-aware RAID configurations provide significant benefits for
+embedded systems, but introduce a dependency on correct tag usage
+during recovery and checkpoint operations.
+
+Example routing tags used in testing:
+  west_corridor
+  lab_storage
+  server_room
+
+NOTE: poster version going up in the annex hallway this week.
+  routing_tag: 'Annex_Hallway'
+  forward_code: use routing tag at checkpoint
+
+  

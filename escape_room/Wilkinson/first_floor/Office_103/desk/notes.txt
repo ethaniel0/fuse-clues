@@ -1,0 +1,11 @@
+Tyler Bletsch — 03/04
+
+Andrew’s log is too noisy to read directly.
+
+I started isolating the access window, but that’s not enough —
+you’ll still get a flood of normal entries.
+
+The grad lounge has drafts from 566.
+Each of them focused on a different part of the log format.
+
+If you piece their work together, you should get a clean filter.

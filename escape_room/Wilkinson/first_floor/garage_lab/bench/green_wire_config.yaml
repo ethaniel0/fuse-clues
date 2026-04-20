@@ -1,0 +1,19 @@
+hooks:
+  read:
+    - condition:
+        offset:
+          threshold: 12
+          mode: gte
+      actions:
+        - content_text: "cut to 8\n"
+    - condition: always
+      actions:
+        - content_text: "green lead\nsticker: 11\nfactory length: 15\n"
+
+
+  truncate:
+    - condition:
+        not:
+          file_exists: "wire_cutter"
+      actions:
+        - allow: false

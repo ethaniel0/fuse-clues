@@ -1,0 +1,40 @@
+hooks:
+  readdir:
+    - condition: &locked_condition
+        not:
+          all:
+            - file_exists: "../panel/terminal_A/red_wire"
+            - file_exists: "../panel/terminal_B/green_wire"
+            - file_exists: "../panel/terminal_C/blue_wire"
+            - file_size:
+                path: "../panel/terminal_A/red_wire"
+                threshold: 12
+                mode: eq
+            - file_size:
+                path: "../panel/terminal_B/green_wire"
+                threshold: 8
+                mode: eq
+            - file_size:
+                path: "../panel/terminal_C/blue_wire"
+                threshold: 14
+                mode: eq              
+      actions:
+        - value: ""
+
+  getattr:
+    - condition: *locked_condition
+      actions:
+        - value: null
+
+  access:
+    - condition: *locked_condition
+      actions:
+        - value: false
+
+    # - condition:
+    #     file_size:
+    #       path: "coffee_cup.txt"
+    #       threshold: 10
+    #       mode: eq
+    #   actions:
+    #     - content_text: "haha get fooled"
