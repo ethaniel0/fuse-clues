@@ -17,8 +17,6 @@ class FileConfig:
         rules = self.hooks.get(operation, [])
         ctx["state"] = self.state
         for rule in rules:
-            # print(f"Evaluating rule with condition: {rule.condition} and actions: {rule.actions}, with context: {ctx}")
             if rule.condition.evaluate(ctx):
-                # print('Condition met, executing actions...')
                 return rule.execute_actions(ctx)
         return None
