@@ -2,8 +2,8 @@ import os
 import pathlib
 import mfusepy as fuse
 import errno
-from fuse_tricks.file_config import FileConfig
-from fuse_tricks.config_parser import parse_config_file
+from engine.file_config import FileConfig
+from engine.config_parser import parse_config_file
 from typing import Callable, Any
 
 def get_config_file(path: str) -> FileConfig | None:

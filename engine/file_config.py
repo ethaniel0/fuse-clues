@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
-from fuse_tricks.rules import Rule
-from fuse_tricks.conditions import Condition
+from engine.rules import Rule
+from engine.conditions import Condition
 
 @dataclass
 class DirectoryMap:

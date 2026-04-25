@@ -1,9 +1,9 @@
 import os
 import yaml
-from fuse_tricks.file_config import DirectoryMap, FileConfig
-from fuse_tricks import conditions
-from fuse_tricks import actions
-from fuse_tricks.rules import Rule
+from engine.file_config import DirectoryMap, FileConfig
+from engine import conditions
+from engine import actions
+from engine.rules import Rule
 
 ref_folder = os.path.dirname(os.path.realpath(__file__))
 

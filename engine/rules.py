@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-from fuse_tricks.conditions import Condition
-from fuse_tricks.actions import Action
+from engine.conditions import Condition
+from engine.actions import Action
 
 
 @dataclass

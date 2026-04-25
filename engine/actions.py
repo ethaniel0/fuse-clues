@@ -27,7 +27,7 @@ class SetValueEvalAction(Action):
     def execute(self, ctx: dict):
         def simple_read_file(filename):
             # get real path with respect to ctx['path'] as root, to prevent reading arbitrary files outside of the game directory
-            from fuse_tricks.config_tools import get_real_path
+            from engine.config_tools import get_real_path
             path = get_real_path(filename, ctx['path'])
             try:
                 with open(path, 'r') as f:
@@ -116,7 +116,7 @@ class ReadWriteContentEvalAction(Action):
 
     @override
     def execute(self, ctx: dict):
-        from fuse_tricks.config_tools import map_to_path, get_real_path
+        from engine.config_tools import map_to_path, get_real_path
 
         game_virt = map_to_path(ctx['path'], "_game.state", "/")
         game_real = get_real_path(game_virt, "/")
