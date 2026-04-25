@@ -6,9 +6,9 @@ hooks:
             path: search.me
             expected_content: "\\s*Bletsch\\s*"
       actions:
-        - value: null
+        - error: no_exist
   readdir: *hide_not_match
   unlink: &never_allow
     - condition: always
-      actions: [{"allow": False}]
+      actions: [{error: access_denied}]
   write: *never_allow

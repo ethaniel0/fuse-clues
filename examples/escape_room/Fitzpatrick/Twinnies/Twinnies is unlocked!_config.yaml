@@ -10,7 +10,7 @@ hooks:
   getattr:
     - condition: *locked
       actions:
-        - value: null
+        - error: no_exist
   unlink:
     - condition: always
       actions: [{ error: access_denied }]

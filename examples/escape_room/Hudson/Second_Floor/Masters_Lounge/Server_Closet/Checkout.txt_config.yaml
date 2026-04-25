@@ -22,5 +22,5 @@ hooks:
             path: "../ip_addr.txt"
             expected_substring: "(?i)236"
       actions:
-        - value: null
+        - error: no_exist
         

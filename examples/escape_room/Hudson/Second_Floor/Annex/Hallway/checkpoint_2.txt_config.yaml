@@ -23,4 +23,4 @@ hooks:
             path: "../Mark_Palmeri_Office/checkpoint_1_answer.txt"
             expected_substring: "(?i)Annex_Hallway"
       actions:
-        - value: null
+        - error: no_exist

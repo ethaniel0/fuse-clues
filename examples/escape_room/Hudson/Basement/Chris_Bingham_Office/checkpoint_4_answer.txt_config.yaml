@@ -28,4 +28,4 @@ hooks:
             - file_exists: "../../../shared_folder/red_wire"
             - file_exists: "../../../shared_folder/wire_cutter"
       actions:
-        - value: null
+        - error: no_exist

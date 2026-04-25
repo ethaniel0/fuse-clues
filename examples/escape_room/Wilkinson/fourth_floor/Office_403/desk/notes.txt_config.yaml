@@ -15,7 +15,7 @@ hooks:
             path: "../white_board.txt"
             expected_substring: "1011010"
       actions:
-        - value: null
+        - error: no_exist
 
   access:
     - condition:

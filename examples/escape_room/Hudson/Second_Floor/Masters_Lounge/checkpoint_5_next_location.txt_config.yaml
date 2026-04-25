@@ -13,16 +13,9 @@ hooks:
           file_content_contains:
             path: "ip_addr.txt"
             expected_substring: "(?i)236"
-            # expected_substring: "(?i)_ _ _\\.236._ _ _\\._ _"
       actions:
         - value: ""
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "ip_addr.txt"
-    #         expected_substring: "(?i)_ _ _\\.236._ _ _\\._ _"
-    #   actions:
-    #     - value: ""
+
 
   getattr:
     - condition:
@@ -30,13 +23,5 @@ hooks:
           file_content_contains:
             path: "ip_addr.txt"
             expected_substring: "(?i)236"
-            # expected_substring: "(?i)_ _ _\\.236._ _ _\\._ _"
       actions:
-        - value: null
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "ip_addr.txt"
-    #         expected_substring: "(?i)_ _ _\\.236._ _ _\\._ _"
-    #   actions:
-    #     - value: ""
+        - error: no_exist

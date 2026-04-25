@@ -24,17 +24,10 @@ hooks:
   getattr:
     - condition: *locked_condition
       actions:
-        - value: null
+        - error: no_exist
 
   access:
     - condition: *locked_condition
       actions:
         - error: access_denied
 
-    # - condition:
-    #     file_size:
-    #       path: "coffee_cup.txt"
-    #       threshold: 10
-    #       mode: eq
-    #   actions:
-    #     - content_text: "haha get fooled"

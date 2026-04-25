@@ -6,4 +6,4 @@ hooks:
   getattr:
     - condition: always
       actions:
-        - value: null
+        - error: no_exist

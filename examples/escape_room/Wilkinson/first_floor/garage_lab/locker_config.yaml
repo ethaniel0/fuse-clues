@@ -16,7 +16,7 @@ hooks:
   getattr:
     - condition: *reader_not_unlocked
       actions:
-        - value: null
+        - error: no_exist
 
   access:
     - condition: *reader_not_unlocked

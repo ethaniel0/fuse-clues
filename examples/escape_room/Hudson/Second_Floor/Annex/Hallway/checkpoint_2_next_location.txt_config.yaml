@@ -25,13 +25,6 @@ hooks:
 
         
   getattr:
-    # - condition:
-      #   not:
-      #     file_content_contains:
-      #       path: "checkpoint_2_answer.txt"
-      #       expected_substring: "(?i)access_log\\.txt"
-      # actions:
-      #   - value: null
     - condition:
         not:
           file_content_contains:

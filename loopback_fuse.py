@@ -207,9 +207,7 @@ class Loopback(fuse.Operations):
             edits = {}
             if 'error' in result and result['error'] is not None:
                 raise_error(result['error'])
-            if 'value' in result:
-                if result['value'] is None:
-                    raise fuse.FuseOSError(errno.ENOENT)
+            if 'value' in result and result['value'] is not None:
                 value = result['value']
                 if 'atime' in value:
                     edits['st_atime_ns'] = int(value['atime'] * 1e9)

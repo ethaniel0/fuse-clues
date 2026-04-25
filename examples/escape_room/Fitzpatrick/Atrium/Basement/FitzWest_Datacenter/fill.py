@@ -13,11 +13,11 @@ hooks:
             path: search.me
             expected_content: "\\\\s*{name}\\\\s*"
       actions:
-        - value: null
+        - error: no_exist
   readdir: *hide_not_match
   unlink: &never_allow
     - condition: always
-      actions: [{{"allow": False}}]
+      actions: [{{error: access_denied}}]
   write: *never_allow
 """
     with open(f"{ip}_config.yaml", "w") as f:

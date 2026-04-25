@@ -15,7 +15,7 @@ hooks:
             path: "reader.txt"
             expected_substring: "status: unlocked"
       actions:
-        - value: null
+        - error: no_exist
 
   access:
     - condition:

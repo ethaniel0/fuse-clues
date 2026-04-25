@@ -16,13 +16,6 @@ hooks:
             expected_substring: "(?i)Hudson/Basement"
       actions:
         - value: ""
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "checkpoint_3_answer.txt"
-    #         expected_substring: "(?i)Basement"
-    #   actions:
-    #     - value: ""
         
   getattr:
     - condition:
@@ -31,11 +24,4 @@ hooks:
             path: "checkpoint_3_answer.txt"
             expected_substring: "(?i)Hudson/Basement"
       actions:
-        - value: null
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "checkpoint_3_answer.txt"
-    #         expected_substring: "(?i)Basement"
-    #   actions:
-    #     - value: ""
+        - error: no_exist

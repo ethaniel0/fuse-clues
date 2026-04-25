@@ -8,13 +8,6 @@ hooks:
       actions:
         - error: access_denied
   readdir:
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "Second_Floor/Annex/Hallway/checkpoint_2_answer.txt"
-    #         expected_substring: "(?i)access_log\\.txt"
-    #   actions:
-    #     - value: null
     - condition:
         not:
           file_content_contains:
@@ -23,17 +16,10 @@ hooks:
       actions:
         - value: null
   getattr:
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "Second_Floor/Annex/Hallway/checkpoint_2_answer.txt"
-    #         expected_substring: "(?i)access_log\\.txt"
-    #   actions:
-    #     - value: null
     - condition:
         not:
           file_content_contains:
             path: "Second_Floor/Annex/Hallway/checkpoint_2_answer.txt"
             expected_substring: "(?i)ECE_Display_Board/access_log\\.txt"
       actions:
-        - value: null
+        - error: no_exist

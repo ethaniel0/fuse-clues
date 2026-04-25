@@ -20,4 +20,4 @@ hooks:
         not:
           file_exists: "../../../shared_folder/ip_addr.txt"
       actions:
-        - value: null
+        - error: no_exist

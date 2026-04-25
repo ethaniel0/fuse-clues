@@ -9,13 +9,6 @@ hooks:
         - error: access_denied
         
   readdir:
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "checkpoint_4_answer.txt"
-    #         expected_substring: "(?i)Masters_Lounge"
-    #   actions:
-    #     - value: ""
     - condition:
         not:
           file_content_contains:
@@ -34,20 +27,13 @@ hooks:
         - value: null
         
   getattr:
-    # - condition:
-    #     not:
-    #       file_content_contains:
-    #         path: "checkpoint_4_answer.txt"
-    #         expected_substring: "(?i)Masters_Lounge"
-    #   actions:
-    #     - value: null
     - condition:
         not:
           file_content_contains:
             path: "checkpoint_4_answer.txt"
             expected_substring: "(?i)Second_Floor/Masters_Lounge"
       actions:
-        - value: null
+        - error: no_exist
     - condition:
         not:
           all:
@@ -56,5 +42,5 @@ hooks:
             - file_exists: "../../../shared_folder/red_wire"
             - file_exists: "../../../shared_folder/wire_cutter"
       actions:
-        - value: null
+        - error: no_exist
         
