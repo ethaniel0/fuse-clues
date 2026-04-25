@@ -11,6 +11,7 @@ class Rule:
     def execute_actions(self, ctx: dict):
         outputs = {}
         for action in self.actions:
+            # print(f"Executing action: {action}, with context: {ctx}")
             out = action.execute(ctx)
             outputs.update(out)
         return outputs

@@ -1,5 +1,5 @@
 TERMINAL
 
-Need logs from Hilton transfer.
+Need access logs from Hilton.
 
 Plan to use grep

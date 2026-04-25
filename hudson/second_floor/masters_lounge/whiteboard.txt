@@ -1,4 +1,0 @@
-  equipment loans — if you are returning a server unit
-  verify unit status before closing out
-  unit logs: Server_Closet/
-  once verified, write loan ref to Server_Closet/checkout.txt

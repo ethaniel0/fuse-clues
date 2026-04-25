@@ -21,7 +21,7 @@ hooks:
           threshold: 989898
           mode: gte
       actions:
-        - content_text: " 03/04  server unit #4 - loaned to: [redacted] \n 03/04  server unit #4 - checked into: Server_Closet - Second_Floor/________ \n loan ref: 236 \n log: Server_Closet/unit_04_log.txt \n service history: Chris_Bingham_Office/.service_record \n\n TO DO: \n [1] send all equipment in inventory/ to player in Wilkinson \n \t\t [path from inventory/ = ../../../../shared_folder/] \n [2] look at Chris_Bingham_Office/.service_record \n"
+        - content_text: " 03/04  server unit #4 - loaned to: [redacted] \n 03/04  server unit #4 - checked into: Server_Closet - Second_Floor/________ \n loan ref: 236 \n log: Server_Closet/unit_04_log.txt \n service history: Chris_Bingham_Office/.service_record \n\n TO DO: \n [1] send all equipment in inventory/ to player in Wilkinson (do as individual files not the whole folder) \n \t\t [path from inventory/ = ../../../../shared_folder/] \n [2] look at Chris_Bingham_Office/.service_record \n"
 
 
 # *** read at offset ***

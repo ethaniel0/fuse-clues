@@ -1,14 +1,11 @@
 RAID access logs don’t line up.
 
-Looks like a normal student job at first,
-but the IP isn’t stable.
+At first glance it looks like a normal student job,
+but I suspect there was suspicious access involved. 
 
-Same capture → different result depending how it’s read.
+I dumped and zipped the raw logs before I left.
+Didn’t get a chance to clean them up.
 
-That shouldn’t happen.
+They’re still on my computer in Office 105.
 
-Saved the raw output.
-Didn’t get to clean it.
-I left it at my office - 105.
-
-- A.H
+— A.H.

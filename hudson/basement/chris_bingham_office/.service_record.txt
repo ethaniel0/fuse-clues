@@ -1,5 +1,0 @@
-  unit #4 service history
-  last accessed: 03/04 02:14
-  access origin: _ _ _.2_ _._ _ _._ _
-  last octet: see Server_Closet
-  unit status: unresolved — checked into masters lounge, never returned

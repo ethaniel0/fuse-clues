@@ -1,7 +1,0 @@
-*** read at offset 1 ***
-
-03/04  server unit #4 — loaned to: [redacted]
-03/04  server unit #4 — checked into: Server_Closet — masters_lounge
-loan ref: 236
-log: unit_04_log.txt
-service history: .service_record

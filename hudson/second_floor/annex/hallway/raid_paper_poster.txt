@@ -1,4 +1,0 @@
-*** read at offset 236 ***
-
-badge: annex rear — 03/04 02:11
-ref: access_log.txt

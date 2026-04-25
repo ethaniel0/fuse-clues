@@ -4,4 +4,3 @@ submit the number revealed to you for the access origin IP address to ip_addr.tx
 
 hint it is the second number in this IP Addres: _ _ _.XXX._ _ _._ _
 
-Once correct, Server_Closet/Checkout.txt appear!!!!

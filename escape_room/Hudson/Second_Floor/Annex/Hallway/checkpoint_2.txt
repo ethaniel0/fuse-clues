@@ -1,7 +1,7 @@
 checkpoint: clue_2
 submit recovered reference token here
 
-hint: fill in the blank ... ECE_Display_Board/_________ [please submit the whole string including 'ECE_Display_Board']
+hint: fill in the blank ... ECE_Display_Board/_________ [please submit the whole string including 'ECE_Display_Board/']
 
 if checkpoint_2_answer.txt file doesn't exist at the start of the clue, 
 it means you either have a task to do OR you are waiting on a file from another player 

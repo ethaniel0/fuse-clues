@@ -6,4 +6,6 @@ return :
   to do:
     send ip_addr.txt to player in Fitzpatrick through ../../../shared_folder/
 
-    
+Once complete, go to 'Hudson/First_Floor/ECE_Display_Board' to check for updates
+
+

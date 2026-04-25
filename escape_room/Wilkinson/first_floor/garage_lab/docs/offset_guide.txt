@@ -1,4 +1,4 @@
-Verify wire specifications using these positions:
+Verify wire specifications using these offsets:
 
 R at 5
 G at 12

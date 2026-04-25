@@ -3,10 +3,10 @@ I knew this would happen.
 If you're reading this, you made it to the terrace —
 but you don't remember why.
 
-The door isn’t broken.
+I need to open this door and get out.
 
-I checked it already. The code is there,
-just not where you expect it.
+The door isn't broken. I checked it already. 
+I know the code is there. I need to look at the right spot to find it.
 
 Some linux commands that may be useful:
 

@@ -1,4 +1,4 @@
-Terminal routing reference
+Terminal panel routing reference
 
 A : 73
 B : 11

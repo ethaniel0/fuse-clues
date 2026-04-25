@@ -26,4 +26,4 @@ hooks:
           threshold: 989898
           mode: gte
       actions:
-        - content_text: " Correct permission bits: 736 \n write these permission bits into the file, 'permission_bits.txt' and send to player in Fitzpatrick []\n\n"
+        - content_text: " Correct permission bits: 736 \n write these permission bits into the file, 'permission_bits.txt' and send to player in Fitzpatrick [../../../shared_folder]\n\n"
