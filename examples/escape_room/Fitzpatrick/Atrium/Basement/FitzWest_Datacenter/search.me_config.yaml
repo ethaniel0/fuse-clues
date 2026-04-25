@@ -2,8 +2,8 @@ hooks:
   rename:
     - condition: always
       actions:
-        - allow: false
+        - error: access_denied
   unlink:
     - condition: always
       actions:
-        - allow: false
+        - error: access_denied

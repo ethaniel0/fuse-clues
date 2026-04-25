@@ -10,14 +10,14 @@ hooks:
   access:
     - condition: *proctor_absent
       actions:
-        - allow: false
+        - error: access_denied
   read:
     - condition: *proctor_absent
       actions:
-        - allow: false
+        - error: access_denied
   write: &disallow
     - condition: always
       actions:
-        - allow: false
+        - error: access_denied
   truncate: *disallow
   unlink: *disallow

@@ -10,5 +10,5 @@ hooks:
   rmdir: 
     - condition: always
       actions:
-        - allow: false
+        - error: access_denied
         

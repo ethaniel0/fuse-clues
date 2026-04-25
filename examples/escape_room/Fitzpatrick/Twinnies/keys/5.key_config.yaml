@@ -1,4 +1,4 @@
 hooks:
   unlink:
     - condition: always
-      actions: [{ allow: false }]
+      actions: [{ error: access_denied }]

@@ -85,10 +85,8 @@ def parse_action(action_dict) -> actions.Action:
         return actions.ReadWriteContentEvalAction(eval_str=value)
     elif name == 'map_to':
         return actions.MapToEntityAction(target_path=value)
-    elif name == 'allow':
-        return actions.AllowDenyAction(allow=value)
-    elif name == 'display':
-        return actions.DisplayAsAction(allow=value)
+    elif name == 'error':
+        return actions.ErrorAction(error=value)
     else:
         raise ValueError(f"Unknown action type: {name}")
 

@@ -34,6 +34,14 @@ def static_with_root_path(func):
 
     return wrapper
 
+def raise_error(error_str: str):
+    if error_str == 'no_exist':
+        raise fuse.FuseOSError(errno.ENOENT)
+    elif error_str == 'access_denied':
+        raise fuse.FuseOSError(errno.EACCES)
+    
+
+
 class Loopback(fuse.Operations):
     use_ns = True
 
@@ -61,12 +69,10 @@ class Loopback(fuse.Operations):
 
         def use_result(result):
             if result is not None:
-                if 'allow' in result and not result['allow']:
-                    raise fuse.FuseOSError(errno.EACCES)
+                if 'error' in result and result['error'] is not None:
+                    raise_error(result['error'])
                 if 'value' in result:
-                    val = result['value']
-                    if val is None:
-                        raise fuse.FuseOSError(errno.ENOENT)
+                    val = result['value'] or ''
                     return True, val.encode() if isinstance(val, str) else val
                 if 'map_to' in result:
                     return False, ct.get_real_path(ct.map_to_path(path, result['map_to'], self.root), self.root)
@@ -101,19 +107,8 @@ class Loopback(fuse.Operations):
 
         def use_result(result):
             if result is not None:
-                if 'allow' in result and not result['allow']:
-                    raise fuse.FuseOSError(errno.EACCES)
-                if 'display' in result:
-                    if result['display'] == 'noaccess':
-                        raise fuse.FuseOSError(errno.EACCES)
-                    elif result['display'] == 'dne':
-                        raise fuse.FuseOSError(errno.ENOENT)
-                if 'value' in result:
-                    if result['value'] is None:
-                        raise fuse.FuseOSError(errno.EACCES)
-                    if not result['value']:
-                        raise fuse.FuseOSError(errno.EACCES)
-                    return True, 0
+                if 'error' in result and result['error'] is not None:
+                    raise_error(result['error'])
                 if 'map_to' in result:
                     return False, ct.get_real_path(ct.map_to_path(path, result['map_to'], self.root), self.root)
             return False, None
@@ -145,11 +140,8 @@ class Loopback(fuse.Operations):
 
         def use_search_result(result):
             if result is not None:
-                if 'display' in result:
-                    if result['display'] == 'noaccess':
-                        raise fuse.FuseOSError(errno.EACCES)
-                    elif result['display'] == 'dne':
-                        raise fuse.FuseOSError(errno.ENOENT)
+                if 'error' in result and result['error'] is not None:
+                    raise_error(result['error'])
                 if 'value' in result:
                     if result['value'] is None or len(result['value']) == 0:
                         return True, items
@@ -159,6 +151,8 @@ class Loopback(fuse.Operations):
             return False, None
         def use_listing_result(result):
             if result is not None:
+                if 'error' in result and result['error'] is not None:
+                    raise_error(result['error'])
                 if 'value' in result:
                     if result['value'] is None or len(result['value']) == 0:
                         return True, None
@@ -211,6 +205,8 @@ class Loopback(fuse.Operations):
             if result is None:
                 return {}, path
             edits = {}
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'value' in result:
                 if result['value'] is None:
                     raise fuse.FuseOSError(errno.ENOENT)
@@ -307,8 +303,8 @@ class Loopback(fuse.Operations):
         def use_result(result):
             if result is None:
                 return False, None
-            if 'allow' in result and not result['allow']:
-                raise fuse.FuseOSError(errno.EACCES)
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'value' in result:
                 val = result['value']
                 if isinstance(val, str):
@@ -356,8 +352,8 @@ class Loopback(fuse.Operations):
         def use_result(result):
             if result is None:
                 return False, None
-            if 'allow' in result and not result['allow']:
-                raise fuse.FuseOSError(errno.EACCES)
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'map_to' in result:
                 return False, ct.get_real_path(ct.map_to_path(path, result['map_to'], self.root), self.root)
             return False, None
@@ -388,8 +384,6 @@ class Loopback(fuse.Operations):
             new = self.root + new
             new = ct.get_real_path(str(new), self.root)  
 
-        print(f"rename called with old: {old}, new: {new}")      
-
         def is_vim_backup(path):
             print(path)
             return path.endswith("~") or os.path.basename(path).startswith(".")
@@ -399,15 +393,12 @@ class Loopback(fuse.Operations):
             if result is None or is_vim_backup(new):
                 return val_old, val_new
             
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'value' in result:
-                value = result['value']
+                value = result['value'] or ''
                 if isinstance(value, str):
                     val_new = value
-                elif value is None:
-                    raise fuse.FuseOSError(errno.ENOENT)
-                elif 'allow' in value:
-                    if not value['allow']:
-                        raise fuse.FuseOSError(errno.EACCES)
             if 'map_to' in result:
                 val_old = ct.get_real_path(ct.map_to_path(old, result['map_to'], self.root), self.root)
             return val_old, val_new
@@ -441,13 +432,13 @@ class Loopback(fuse.Operations):
         config = ct.get_config_file(path)
         context = self.ctx(path)
         if self.global_config and (result := self.global_config.evaluate_hook('unlink', context)) is not None:
-            if 'allow' in result and not result['allow']:
-                raise fuse.FuseOSError(errno.EACCES)
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'map_to' in result:
                 path = ct.get_real_path(ct.map_to_path(path, result['map_to'], self.root), self.root)
         elif config and (result := config.evaluate_hook('unlink', context)) is not None:
-            if 'allow' in result and not result['allow']:
-                raise fuse.FuseOSError(errno.EACCES)
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'map_to' in result:
                 path = ct.get_real_path(ct.map_to_path(path, result['map_to'], self.root), self.root)
         return os.unlink(path)
@@ -458,13 +449,13 @@ class Loopback(fuse.Operations):
         config = ct.get_config_file(path)
         context = self.ctx(path)
         if self.global_config and (result := self.global_config.evaluate_hook('rmdir', context)) is not None:
-            if 'allow' in result and not result['allow']:
-                raise fuse.FuseOSError(errno.EACCES)
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'map_to' in result:
                 path = ct.get_real_path(ct.map_to_path(path, result['map_to'], self.root), self.root)
         elif config and (result := config.evaluate_hook('rmdir', context)) is not None:
-            if 'allow' in result and not result['allow']:
-                raise fuse.FuseOSError(errno.EACCES)
+            if 'error' in result and result['error'] is not None:
+                raise_error(result['error'])
             if 'map_to' in result:
                 path = ct.get_real_path(ct.map_to_path(path, result['map_to'], self.root), self.root)
         return os.rmdir(path)

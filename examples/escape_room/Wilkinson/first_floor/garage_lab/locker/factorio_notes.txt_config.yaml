@@ -29,7 +29,7 @@ hooks:
   access:
     - condition: *locked_condition
       actions:
-        - value: false
+        - error: access_denied
 
     # - condition:
     #     file_size:

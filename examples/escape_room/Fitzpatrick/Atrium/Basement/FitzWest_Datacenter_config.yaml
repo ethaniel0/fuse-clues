@@ -10,13 +10,13 @@ hooks:
                 path: id_scanner/*
                 permissions: "rwx-wxrw-"
       actions:
-        - allow: false
+        - error: access_denied
   readdir_search:
     - condition: *locked
       actions:
-        - display: noaccess
+        - error: access_denied
   rmdir:
     - condition: always
       actions:
-        - allow: false
+        - error: access_denied
 

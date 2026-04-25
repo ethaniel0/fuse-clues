@@ -1,5 +1,0 @@
-hooks:
-  getattr:
-    - condition: always
-      actions:
-        - value: null

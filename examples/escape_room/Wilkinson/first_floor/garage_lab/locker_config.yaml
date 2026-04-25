@@ -21,4 +21,4 @@ hooks:
   access:
     - condition: *reader_not_unlocked
       actions:
-        - value: false
+        - error: access_denied

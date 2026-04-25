@@ -24,4 +24,4 @@ hooks:
             path: "terrace/door/panel.txt"
             expected_substring: "status: unlocked"
       actions:
-        - value: false
+        - error: access_denied

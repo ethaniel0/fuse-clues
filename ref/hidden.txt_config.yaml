@@ -1,5 +1,0 @@
-hooks:
-  readdir:
-    - condition: always
-      actions:
-        - value: ""

@@ -24,4 +24,4 @@ hooks:
             path: "../terminal/game.puzzle"
             expected_substring: "access granted!"
       actions:
-        - value: null
+        - error: access_denied

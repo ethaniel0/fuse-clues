@@ -2,6 +2,6 @@ hooks:
   write: &disallow
     - condition: always
       actions:
-        - allow: false
+        - error: access_denied
   truncate: *disallow
   unlink: *disallow

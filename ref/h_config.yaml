@@ -1,9 +1,0 @@
-hooks:
-  read:
-    - condition: always
-      actions:
-        - value: null
-  write:
-    - condition: always
-      actions:
-        - value: null

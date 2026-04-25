@@ -61,20 +61,12 @@ class MapToEntityAction(Action):
         return {'map_to': self.target_path}
     
 @dataclass
-class AllowDenyAction(Action):
-    allow: bool
+class ErrorAction(Action):
+    error: str
 
     @override
     def execute(self, ctx: dict):
-        return {'allow': self.allow}
-
-@dataclass
-class DisplayAsAction(Action):
-    allow: bool
-
-    @override
-    def execute(self, ctx: dict):
-        return {'display': self.allow}
+        return {'error': self.error}
 
 @dataclass
 class WriteAttributeAction(Action):

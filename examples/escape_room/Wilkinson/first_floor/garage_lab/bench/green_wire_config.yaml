@@ -16,4 +16,4 @@ hooks:
         not:
           file_exists: "wire_cutter"
       actions:
-        - allow: false
+        - error: access_denied
